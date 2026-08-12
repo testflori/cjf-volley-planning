@@ -56,6 +56,66 @@
     border-color: var(--bleu);
   }
 
+  #views {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  #views button {
+    flex: 1;
+    border: 1px solid var(--bleu);
+    background: white;
+    color: var(--bleu);
+    padding: 9px 14px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  #views button.active {
+    background: var(--bleu);
+    color: white;
+  }
+
+  table.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid var(--bord);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 0.85rem;
+  }
+  table.stats-table th, table.stats-table td {
+    padding: 9px 10px;
+    text-align: center;
+    border-bottom: 1px solid var(--bord);
+  }
+  table.stats-table th {
+    background: var(--bleu-clair);
+    color: var(--bleu);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+  table.stats-table td:first-child, table.stats-table th:first-child {
+    text-align: left;
+  }
+  table.stats-table tr:last-child td { border-bottom: none; }
+  table.stats-table .cat-label {
+    display: block;
+    font-size: 0.72rem;
+    color: var(--gris);
+    font-weight: 400;
+  }
+  .bilan-v { color: var(--vert); font-weight: 700; }
+  .bilan-d { color: #c0392b; font-weight: 700; }
+  .stats-note {
+    font-size: 0.75rem;
+    color: var(--gris);
+    text-align: center;
+    margin-top: 10px;
+  }
+
   #status {
     font-size: 0.8rem;
     color: var(--gris);
@@ -158,6 +218,10 @@
 </header>
 
 <main>
+  <div id="views">
+    <button id="view-planning" class="active">Planning</button>
+    <button id="view-stats">Stats par catégorie</button>
+  </div>
   <div id="tabs"></div>
   <div id="status">Chargement…</div>
   <div id="content"></div>
@@ -175,6 +239,7 @@ const JOURS_LONG = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','sa
 
 let DB = null;
 let activeCategory = 'ALL';
+let viewMode = 'planning';
 
 function fmtJour(iso) {
   if (!iso) return '';
@@ -193,6 +258,21 @@ function fmtWeekLabel(iso) {
 
 function isHome(m) {
   return /CERCLE JULES FERRY/i.test(m.domicile);
+}
+
+// Best-effort: pulls two set-count numbers out of a raw score string like
+// "3-1" or "3 / 1" so we can tell whether CJF won. Returns null if the
+// score doesn't look like a simple "X-Y" set count.
+function parseSetScore(m) {
+  if (!m.score) return null;
+  const match = m.score.match(/(\d+)\s*[-\/]\s*(\d+)/);
+  if (!match) return null;
+  const [a, b] = [Number(match[1]), Number(match[2])];
+  const home = isHome(m);
+  const cjfSets = home ? a : b;
+  const oppSets = home ? b : a;
+  if (Number.isNaN(cjfSets) || Number.isNaN(oppSets) || cjfSets === oppSets) return null;
+  return cjfSets > oppSets ? 'V' : 'D';
 }
 
 function renderTabs() {
@@ -215,6 +295,18 @@ function renderTabs() {
 }
 
 function render() {
+  document.getElementById('view-planning').className = viewMode === 'planning' ? 'active' : '';
+  document.getElementById('view-stats').className = viewMode === 'stats' ? 'active' : '';
+  document.getElementById('tabs').style.display = viewMode === 'planning' ? 'flex' : 'none';
+
+  if (viewMode === 'stats') {
+    renderStats();
+  } else {
+    renderPlanning();
+  }
+}
+
+function renderPlanning() {
   renderTabs();
   const content = document.getElementById('content');
   const emptyState = document.getElementById('empty-state');
@@ -247,6 +339,74 @@ function render() {
     }
     content.appendChild(section);
   }
+}
+
+function renderStats() {
+  const content = document.getElementById('content');
+  const emptyState = document.getElementById('empty-state');
+  emptyState.style.display = 'none';
+  content.innerHTML = '';
+
+  const today = new Date().toISOString().slice(0, 10);
+  const rows = DB.categories.map(cat => {
+    const matches = DB.matches.filter(m => m.categoryCode === cat.code);
+    const joues = matches.filter(m => m.statut === 'joue');
+    const aVenir = matches.filter(m => m.statut !== 'joue');
+    let victoires = 0, defaites = 0, indetermines = 0;
+    for (const m of joues) {
+      const r = parseSetScore(m);
+      if (r === 'V') victoires++;
+      else if (r === 'D') defaites++;
+      else indetermines++;
+    }
+    const prochain = aVenir
+      .filter(m => !m.date || m.date >= today)
+      .sort((a, b) => (a.date || '').localeCompare(b.date || ''))[0];
+
+    return { cat, total: matches.length, joues: joues.length, aVenir: aVenir.length, victoires, defaites, indetermines, prochain };
+  });
+
+  const table = document.createElement('table');
+  table.className = 'stats-table';
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th>Catégorie</th>
+        <th>Matchs</th>
+        <th>Joués</th>
+        <th>À venir</th>
+        <th>Bilan</th>
+        <th>Prochain match</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${rows.map(r => `
+        <tr>
+          <td>${esc(r.cat.code)}<span class="cat-label">${esc(r.cat.label)}</span></td>
+          <td>${r.total}</td>
+          <td>${r.joues}</td>
+          <td>${r.aVenir}</td>
+          <td>${renderBilan(r)}</td>
+          <td>${r.prochain ? esc(fmtJour(r.prochain.date).court || r.prochain.dateAffichee) + ' — ' + esc(r.prochain.heure || '') : '—'}</td>
+        </tr>
+      `).join('')}
+    </tbody>
+  `;
+  content.appendChild(table);
+
+  const note = document.createElement('p');
+  note.className = 'stats-note';
+  note.textContent = 'Bilan calculé à partir des scores publiés par la FFVB — vide tant qu\'aucun match n\'a été joué ou si le score n\'a pas pu être interprété.';
+  content.appendChild(note);
+}
+
+function renderBilan(r) {
+  if (r.joues === 0) return '—';
+  const parts = [];
+  if (r.victoires) parts.push(`<span class="bilan-v">${r.victoires}V</span>`);
+  if (r.defaites) parts.push(`<span class="bilan-d">${r.defaites}D</span>`);
+  if (r.indetermines) parts.push(`${r.indetermines} score(s) non lu(s)`);
+  return parts.join(' · ') || '—';
 }
 
 function renderCard(m) {
@@ -282,6 +442,9 @@ function renderCard(m) {
 function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
+
+document.getElementById('view-planning').onclick = () => { viewMode = 'planning'; render(); };
+document.getElementById('view-stats').onclick = () => { viewMode = 'stats'; render(); };
 
 fetch('data/matches.json')
   .then(r => {
