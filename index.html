@@ -116,6 +116,32 @@
     margin-top: 10px;
   }
 
+  #home-filter {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: fit-content;
+    margin: 0 auto 14px;
+    padding: 7px 14px;
+    background: white;
+    border: 1px solid var(--bord);
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #444;
+    cursor: pointer;
+    user-select: none;
+  }
+  #home-filter:has(input:checked) {
+    background: var(--vert);
+    border-color: var(--vert);
+    color: white;
+  }
+  #home-filter input {
+    accent-color: var(--vert);
+    cursor: pointer;
+  }
+
   #status {
     font-size: 0.8rem;
     color: var(--gris);
@@ -256,8 +282,31 @@
     border-top: 1px solid var(--fond);
   }
   .lieu {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     font-size: 0.75rem;
     color: var(--gris);
+  }
+  .venue-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding: 2px 8px;
+    border-radius: 10px;
+    flex: none;
+  }
+  .venue-badge.domicile {
+    background: #e2f6ea;
+    color: var(--vert);
+  }
+  .venue-badge.exterieur {
+    background: #fdeee0;
+    color: #b9660c;
   }
   .match-score {
     font-size: 0.85rem;
@@ -299,6 +348,10 @@
     <button id="view-stats">Stats par catégorie</button>
   </div>
   <div id="tabs"></div>
+  <label id="home-filter">
+    <input type="checkbox" id="home-filter-checkbox">
+    <span>🏠 Matchs à domicile uniquement</span>
+  </label>
   <div id="status">Chargement…</div>
   <div id="content"></div>
   <div id="empty-state">Aucun match trouvé pour cette catégorie.</div>
@@ -318,6 +371,7 @@ let LOGOS = {};
 let CAT_LOGOS = {};
 let activeCategory = 'ALL';
 let viewMode = 'planning';
+let homeOnly = false;
 
 const STOPWORDS = new Set(['DE','DU','DES','LA','LE','LES','EN','SUR','ET','SAINT','ST','VOLLEY','VOLLEY-BALL','BALL','VB','CLUB','SPORTIVE','SPORTIF','UNION','SECTION','SP','US','U.S.','V.B.','ASSOCIATION','AS','A.S.']);
 
@@ -334,12 +388,17 @@ function teamBadge(name) {
   return `<span class="team-logo-fallback">${esc(initials(name))}</span>`;
 }
 
-// GYMNASE GUY MOCQUET is CJF's home gym: house icon for home games,
-// bus icon for away games (based on the published venue, not the team order).
-function venueIcon(m) {
+// GYMNASE GUY MOCQUET is CJF's home gym: house badge for home games,
+// bus badge for away games (based on the published venue, not team order).
+function isDomicileVenue(m) {
+  return !!m.lieu && /GUY MOCQUET/i.test(m.lieu);
+}
+
+function venueBadge(m) {
   if (!m.lieu) return '';
-  const isDomicileVenue = /GUY MOCQUET/i.test(m.lieu);
-  return isDomicileVenue ? '🏠' : '🚌';
+  return isDomicileVenue(m)
+    ? '<span class="venue-badge domicile">🏠 Domicile</span>'
+    : '<span class="venue-badge exterieur">🚌 Extérieur</span>';
 }
 
 function categoryChip(m) {
@@ -407,6 +466,7 @@ function render() {
   document.getElementById('view-planning').className = viewMode === 'planning' ? 'active' : '';
   document.getElementById('view-stats').className = viewMode === 'stats' ? 'active' : '';
   document.getElementById('tabs').style.display = viewMode === 'planning' ? 'flex' : 'none';
+  document.getElementById('home-filter').style.display = viewMode === 'planning' ? 'flex' : 'none';
 
   if (viewMode === 'stats') {
     renderStats();
@@ -421,7 +481,9 @@ function renderPlanning() {
   const emptyState = document.getElementById('empty-state');
   content.innerHTML = '';
 
-  const matches = DB.matches.filter(m => activeCategory === 'ALL' || m.categoryCode === activeCategory);
+  const matches = DB.matches
+    .filter(m => activeCategory === 'ALL' || m.categoryCode === activeCategory)
+    .filter(m => !homeOnly || isHome(m));
 
   if (matches.length === 0) {
     emptyState.style.display = 'block';
@@ -545,7 +607,7 @@ function renderCard(m) {
       </div>
     </div>
     <div class="match-bottom">
-      <span class="lieu">${venueIcon(m)} ${m.lieu ? esc(m.lieu) : ''}</span>
+      <span class="lieu">${venueBadge(m)}${m.lieu ? esc(m.lieu) : ''}</span>
       <span class="match-score">${m.score ? esc(m.score) : (m.statut === 'joue' ? '' : 'à venir')}</span>
     </div>
   `;
@@ -558,6 +620,7 @@ function esc(s) {
 
 document.getElementById('view-planning').onclick = () => { viewMode = 'planning'; render(); };
 document.getElementById('view-stats').onclick = () => { viewMode = 'stats'; render(); };
+document.getElementById('home-filter-checkbox').onchange = (e) => { homeOnly = e.target.checked; render(); };
 
 Promise.all([
   fetch('data/matches.json').then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
