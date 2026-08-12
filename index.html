@@ -164,28 +164,21 @@
   .cat-chip {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: var(--bleu);
-    background: var(--bleu-clair);
-    padding: 3px 10px 3px 3px;
-    border-radius: 20px;
+    flex: none;
   }
   .cat-chip img {
-    width: 22px;
-    height: 22px;
+    width: 42px;
+    height: 42px;
     object-fit: contain;
-    border-radius: 50%;
     flex: none;
   }
   .cat-chip .cat-fallback {
-    width: 22px;
-    height: 22px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     background: var(--bleu);
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.85rem;
     font-weight: 700;
     display: inline-flex;
     align-items: center;
@@ -354,7 +347,7 @@ function categoryChip(m) {
   const badge = logo
     ? `<img src="${esc(logo)}" alt="${esc(m.categoryCode || '')}" loading="lazy">`
     : `<span class="cat-fallback">${esc((m.categoryCode || '?').slice(0, 2))}</span>`;
-  return `<span class="cat-chip" title="${esc(m.categoryLabel || '')}">${badge}${esc(m.categoryCode || '')}</span>`;
+  return `<span class="cat-chip" title="${esc(m.categoryLabel || '')}">${badge}</span>`;
 }
 
 function fmtJour(iso) {
