@@ -137,71 +137,54 @@
   .match-card {
     background: white;
     border: 1px solid var(--bord);
-    border-radius: 10px;
-    padding: 12px 14px;
-    margin-bottom: 8px;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .match-top {
     display: flex;
     align-items: center;
-    gap: 12px;
+    justify-content: space-between;
+    margin-bottom: 10px;
   }
   .match-datetime {
-    flex: 0 0 68px;
-    text-align: center;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
   }
   .match-datetime .jour {
     font-weight: 600;
     font-size: 0.9rem;
+    text-transform: capitalize;
   }
   .match-datetime .heure {
-    font-size: 0.78rem;
+    font-size: 0.8rem;
     color: var(--gris);
   }
-  .match-teams {
-    flex: 1;
-    min-width: 0;
-  }
-  .match-teams .cat {
-    display: inline-block;
-    font-size: 0.68rem;
+  .cat-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.7rem;
     font-weight: 600;
     color: var(--bleu);
     background: var(--bleu-clair);
-    padding: 1px 7px;
-    border-radius: 10px;
-    margin-bottom: 4px;
+    padding: 3px 10px 3px 3px;
+    border-radius: 20px;
   }
-  .match-teams .versus {
-    font-size: 0.9rem;
-    line-height: 1.35;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-  .match-teams .versus .cjf {
-    font-weight: 700;
-  }
-  .match-teams .versus .vs-sep {
-    color: #999;
-  }
-  .team {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-  }
-  .team-logo {
+  .cat-chip img {
     width: 22px;
     height: 22px;
     object-fit: contain;
-    border-radius: 4px;
+    border-radius: 50%;
     flex: none;
   }
-  .team-logo-fallback {
+  .cat-chip .cat-fallback {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: var(--bleu-clair);
-    color: var(--bleu);
+    background: var(--bleu);
+    color: white;
     font-size: 0.6rem;
     font-weight: 700;
     display: inline-flex;
@@ -209,6 +192,58 @@
     justify-content: center;
     flex: none;
   }
+
+  .scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+  }
+  .team-col {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+  }
+  .team-logo {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    border-radius: 8px;
+    flex: none;
+  }
+  .team-logo-fallback {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--bleu-clair);
+    color: var(--bleu);
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+  }
+  .team-name {
+    font-size: 0.78rem;
+    line-height: 1.25;
+    max-width: 100%;
+  }
+  .team-col.cjf .team-name {
+    font-weight: 700;
+    color: var(--bleu);
+  }
+  .vs-sep {
+    flex: none;
+    color: #999;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
   header .cjf-logo {
     width: 44px;
     height: 44px;
@@ -219,14 +254,19 @@
     background: white;
     padding: 3px;
   }
-  .match-teams .lieu {
+  .match-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--fond);
+  }
+  .lieu {
     font-size: 0.75rem;
     color: var(--gris);
-    margin-top: 2px;
   }
   .match-score {
-    flex: 0 0 auto;
-    text-align: right;
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--vert);
@@ -282,6 +322,7 @@ const JOURS_LONG = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','sa
 
 let DB = null;
 let LOGOS = {};
+let CAT_LOGOS = {};
 let activeCategory = 'ALL';
 let viewMode = 'planning';
 
@@ -298,6 +339,14 @@ function teamBadge(name) {
   const logo = LOGOS[name];
   if (logo) return `<img class="team-logo" src="${esc(logo)}" alt="${esc(name)}" loading="lazy">`;
   return `<span class="team-logo-fallback">${esc(initials(name))}</span>`;
+}
+
+function categoryChip(m) {
+  const logo = CAT_LOGOS[m.categoryCode];
+  const badge = logo
+    ? `<img src="${esc(logo)}" alt="${esc(m.categoryCode || '')}" loading="lazy">`
+    : `<span class="cat-fallback">${esc((m.categoryCode || '?').slice(0, 2))}</span>`;
+  return `<span class="cat-chip" title="${esc(m.categoryLabel || '')}">${badge}${esc(m.categoryCode || '')}</span>`;
 }
 
 function fmtJour(iso) {
@@ -472,31 +521,33 @@ function renderCard(m) {
   const card = document.createElement('div');
   card.className = 'match-card ' + (m.statut === 'joue' ? 'joue' : 'a-venir');
 
-  const dt = document.createElement('div');
-  dt.className = 'match-datetime';
   const j = fmtJour(m.date);
-  dt.innerHTML = `<div class="jour">${j.court || m.dateAffichee}</div><div class="heure">${m.heure || ''}</div>`;
-
-  const teams = document.createElement('div');
-  teams.className = 'match-teams';
   const home = isHome(m);
-  const domicileCls = home ? 'cjf' : '';
-  const exterieurCls = !home ? 'cjf' : '';
-  const domicileHtml = `<span class="team ${domicileCls}">${teamBadge(m.domicile)}${esc(m.domicile)}</span>`;
-  const exterieurHtml = `<span class="team ${exterieurCls}">${teamBadge(m.exterieur)}${esc(m.exterieur)}</span>`;
-  teams.innerHTML = `
-    <span class="cat">${esc(m.categoryCode || '')}</span>
-    <div class="versus">${domicileHtml} <span class="vs-sep">vs</span> ${exterieurHtml}</div>
-    <div class="lieu">${m.lieu ? esc(m.lieu) : ''}</div>
+
+  card.innerHTML = `
+    <div class="match-top">
+      <div class="match-datetime">
+        <span class="jour">${esc(j.court || m.dateAffichee)}</span>
+        <span class="heure">${esc(m.heure || '')}</span>
+      </div>
+      ${categoryChip(m)}
+    </div>
+    <div class="scoreboard">
+      <div class="team-col ${home ? 'cjf' : ''}">
+        ${teamBadge(m.domicile)}
+        <span class="team-name">${esc(m.domicile)}</span>
+      </div>
+      <span class="vs-sep">VS</span>
+      <div class="team-col ${!home ? 'cjf' : ''}">
+        ${teamBadge(m.exterieur)}
+        <span class="team-name">${esc(m.exterieur)}</span>
+      </div>
+    </div>
+    <div class="match-bottom">
+      <span class="lieu">${m.lieu ? esc(m.lieu) : ''}</span>
+      <span class="match-score">${m.score ? esc(m.score) : (m.statut === 'joue' ? '' : 'à venir')}</span>
+    </div>
   `;
-
-  const score = document.createElement('div');
-  score.className = 'match-score';
-  score.textContent = m.score ? m.score : (m.statut === 'joue' ? '' : 'à venir');
-
-  card.appendChild(dt);
-  card.appendChild(teams);
-  card.appendChild(score);
   return card;
 }
 
@@ -510,10 +561,12 @@ document.getElementById('view-stats').onclick = () => { viewMode = 'stats'; rend
 Promise.all([
   fetch('data/matches.json').then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
   fetch('data/club-logos.json').then(r => r.ok ? r.json() : {}).catch(() => ({})),
+  fetch('data/category-logos.json').then(r => r.ok ? r.json() : {}).catch(() => ({})),
 ])
-  .then(([db, logos]) => {
+  .then(([db, logos, catLogos]) => {
     DB = db;
     LOGOS = logos;
+    CAT_LOGOS = catLogos;
     document.getElementById('saison-label').textContent = db.saison;
     document.getElementById('last-updated').textContent = new Date(db.lastUpdated).toLocaleString('fr-FR');
     document.getElementById('status').textContent = db.matches.length + ' match(s) programmés sur la saison';
