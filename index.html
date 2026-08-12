@@ -173,9 +173,51 @@
   .match-teams .versus {
     font-size: 0.9rem;
     line-height: 1.35;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
   }
   .match-teams .versus .cjf {
     font-weight: 700;
+  }
+  .match-teams .versus .vs-sep {
+    color: #999;
+  }
+  .team {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .team-logo {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    border-radius: 4px;
+    flex: none;
+  }
+  .team-logo-fallback {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--bleu-clair);
+    color: var(--bleu);
+    font-size: 0.6rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+  }
+  header .cjf-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    border-radius: 8px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background: white;
+    padding: 3px;
   }
   .match-teams .lieu {
     font-size: 0.75rem;
@@ -213,6 +255,7 @@
 <body>
 
 <header>
+  <img class="cjf-logo" src="logos/cjf.png" alt="Logo CJF">
   <h1>CJF Fleury-les-Aubrais Volley</h1>
   <p>Planning des matchs — saison <span id="saison-label">…</span></p>
 </header>
@@ -238,8 +281,24 @@ const MOIS_LABEL = ['janvier','février','mars','avril','mai','juin','juillet','
 const JOURS_LONG = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
 
 let DB = null;
+let LOGOS = {};
 let activeCategory = 'ALL';
 let viewMode = 'planning';
+
+const STOPWORDS = new Set(['DE','DU','DES','LA','LE','LES','EN','SUR','ET','SAINT','ST','VOLLEY','VOLLEY-BALL','BALL','VB','CLUB','SPORTIVE','SPORTIF','UNION','SECTION','SP','US','U.S.','V.B.','ASSOCIATION','AS','A.S.']);
+
+function initials(name) {
+  const words = String(name).toUpperCase().replace(/[.'()]/g, ' ').split(/\s+/).filter(Boolean);
+  const significant = words.filter(w => !STOPWORDS.has(w));
+  const pool = significant.length ? significant : words;
+  return pool.slice(0, 2).map(w => w[0]).join('') || '?';
+}
+
+function teamBadge(name) {
+  const logo = LOGOS[name];
+  if (logo) return `<img class="team-logo" src="${esc(logo)}" alt="${esc(name)}" loading="lazy">`;
+  return `<span class="team-logo-fallback">${esc(initials(name))}</span>`;
+}
 
 function fmtJour(iso) {
   if (!iso) return '';
@@ -421,11 +480,13 @@ function renderCard(m) {
   const teams = document.createElement('div');
   teams.className = 'match-teams';
   const home = isHome(m);
-  const domicileHtml = home ? `<span class="cjf">${esc(m.domicile)}</span>` : esc(m.domicile);
-  const exterieurHtml = !home ? `<span class="cjf">${esc(m.exterieur)}</span>` : esc(m.exterieur);
+  const domicileCls = home ? 'cjf' : '';
+  const exterieurCls = !home ? 'cjf' : '';
+  const domicileHtml = `<span class="team ${domicileCls}">${teamBadge(m.domicile)}${esc(m.domicile)}</span>`;
+  const exterieurHtml = `<span class="team ${exterieurCls}">${teamBadge(m.exterieur)}${esc(m.exterieur)}</span>`;
   teams.innerHTML = `
     <span class="cat">${esc(m.categoryCode || '')}</span>
-    <div class="versus">${domicileHtml} <span style="color:#999">vs</span> ${exterieurHtml}</div>
+    <div class="versus">${domicileHtml} <span class="vs-sep">vs</span> ${exterieurHtml}</div>
     <div class="lieu">${m.lieu ? esc(m.lieu) : ''}</div>
   `;
 
@@ -446,13 +507,13 @@ function esc(s) {
 document.getElementById('view-planning').onclick = () => { viewMode = 'planning'; render(); };
 document.getElementById('view-stats').onclick = () => { viewMode = 'stats'; render(); };
 
-fetch('data/matches.json')
-  .then(r => {
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r.json();
-  })
-  .then(db => {
+Promise.all([
+  fetch('data/matches.json').then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
+  fetch('data/club-logos.json').then(r => r.ok ? r.json() : {}).catch(() => ({})),
+])
+  .then(([db, logos]) => {
     DB = db;
+    LOGOS = logos;
     document.getElementById('saison-label').textContent = db.saison;
     document.getElementById('last-updated').textContent = new Date(db.lastUpdated).toLocaleString('fr-FR');
     document.getElementById('status').textContent = db.matches.length + ' match(s) programmés sur la saison';
