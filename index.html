@@ -291,13 +291,18 @@
   .venue-badge {
     display: inline-flex;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
     font-size: 0.65rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.02em;
     padding: 2px 8px;
     border-radius: 10px;
+    flex: none;
+  }
+  .venue-badge svg {
+    width: 13px;
+    height: 13px;
     flex: none;
   }
   .venue-badge.domicile {
@@ -364,6 +369,7 @@
 <script>
 const MOIS_JOURS = ['dim','lun','mar','mer','jeu','ven','sam'];
 const MOIS_LABEL = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const MOIS_ABBR = ['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
 const JOURS_LONG = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
 
 let DB = null;
@@ -394,11 +400,14 @@ function isDomicileVenue(m) {
   return !!m.lieu && /GUY MOCQUET/i.test(m.lieu);
 }
 
+const ICON_HOUSE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9.5h12V10"/><path d="M9.8 19.5v-5.5h4.4v5.5"/></svg>';
+const ICON_BUS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5.5" width="18" height="11" rx="2.2"/><path d="M3 11.5h18"/><path d="M7 16.5v2.3"/><path d="M17 16.5v2.3"/><circle cx="7.3" cy="19" r="1.2" fill="currentColor" stroke="none"/><circle cx="16.7" cy="19" r="1.2" fill="currentColor" stroke="none"/></svg>';
+
 function venueBadge(m) {
   if (!m.lieu) return '';
   return isDomicileVenue(m)
-    ? '<span class="venue-badge domicile">🏠 Domicile</span>'
-    : '<span class="venue-badge exterieur">🚌 Extérieur</span>';
+    ? `<span class="venue-badge domicile">${ICON_HOUSE} Domicile</span>`
+    : `<span class="venue-badge exterieur">${ICON_BUS} Extérieur</span>`;
 }
 
 function categoryChip(m) {
@@ -412,7 +421,8 @@ function categoryChip(m) {
 function fmtJour(iso) {
   if (!iso) return '';
   const d = new Date(iso + 'T00:00:00');
-  return { court: MOIS_JOURS[d.getDay()] + ' ' + d.getDate(), long: d };
+  const court = `${MOIS_JOURS[d.getDay()]} ${d.getDate()} ${MOIS_ABBR[d.getMonth()]} ${d.getFullYear()}`;
+  return { court, long: d };
 }
 
 function fmtWeekLabel(iso) {
