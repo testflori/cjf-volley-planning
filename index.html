@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CJF Volley — Planning</title>
+<style>
+  :root {
+    --bleu: #0b3d91;
+    --bleu-clair: #e8f0fe;
+    --vert: #1a8f4c;
+    --gris: #6b7280;
+    --bord: #e2e5ea;
+    --fond: #f7f8fa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: var(--fond);
+    color: #1a1d23;
+  }
+  header {
+    background: var(--bleu);
+    color: white;
+    padding: 20px 16px;
+    text-align: center;
+  }
+  header h1 { margin: 0; font-size: 1.4rem; }
+  header p { margin: 4px 0 0; font-size: 0.85rem; opacity: 0.85; }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  #tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+  #tabs button {
+    border: 1px solid var(--bord);
+    background: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: #444;
+  }
+  #tabs button.active {
+    background: var(--bleu);
+    color: white;
+    border-color: var(--bleu);
+  }
+
+  #status {
+    font-size: 0.8rem;
+    color: var(--gris);
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .week-group {
+    margin-bottom: 22px;
+  }
+  .week-group h2 {
+    font-size: 0.95rem;
+    color: var(--bleu);
+    border-bottom: 2px solid var(--bleu-clair);
+    padding-bottom: 6px;
+    margin: 0 0 10px;
+  }
+
+  .match-card {
+    background: white;
+    border: 1px solid var(--bord);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .match-datetime {
+    flex: 0 0 68px;
+    text-align: center;
+  }
+  .match-datetime .jour {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .match-datetime .heure {
+    font-size: 0.78rem;
+    color: var(--gris);
+  }
+  .match-teams {
+    flex: 1;
+    min-width: 0;
+  }
+  .match-teams .cat {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--bleu);
+    background: var(--bleu-clair);
+    padding: 1px 7px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+  }
+  .match-teams .versus {
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+  .match-teams .versus .cjf {
+    font-weight: 700;
+  }
+  .match-teams .lieu {
+    font-size: 0.75rem;
+    color: var(--gris);
+    margin-top: 2px;
+  }
+  .match-score {
+    flex: 0 0 auto;
+    text-align: right;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--vert);
+  }
+  .match-card.a-venir .match-score {
+    color: var(--gris);
+    font-weight: 400;
+    font-size: 0.75rem;
+  }
+
+  #empty-state {
+    text-align: center;
+    color: var(--gris);
+    padding: 40px 16px;
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--gris);
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>CJF Fleury-les-Aubrais Volley</h1>
+  <p>Planning des matchs — saison <span id="saison-label">…</span></p>
+</header>
+
+<main>
+  <div id="tabs"></div>
+  <div id="status">Chargement…</div>
+  <div id="content"></div>
+  <div id="empty-state">Aucun match trouvé pour cette catégorie.</div>
+</main>
+
+<footer>
+  Données FFVB, club 0456420 · dernière mise à jour <span id="last-updated">…</span>
+</footer>
+
+<script>
+const MOIS_JOURS = ['dim','lun','mar','mer','jeu','ven','sam'];
+const MOIS_LABEL = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const JOURS_LONG = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+
+let DB = null;
+let activeCategory = 'ALL';
+
+function fmtJour(iso) {
+  if (!iso) return '';
+  const d = new Date(iso + 'T00:00:00');
+  return { court: MOIS_JOURS[d.getDay()] + ' ' + d.getDate(), long: d };
+}
+
+function fmtWeekLabel(iso) {
+  const d = new Date(iso + 'T00:00:00');
+  const fin = new Date(d.getTime() + 6 * 86400000);
+  const sameMonth = d.getMonth() === fin.getMonth();
+  const debut = d.getDate() + (sameMonth ? '' : ' ' + MOIS_LABEL[d.getMonth()]);
+  const finStr = fin.getDate() + ' ' + MOIS_LABEL[fin.getMonth()];
+  return 'Semaine du ' + debut + ' au ' + finStr;
+}
+
+function isHome(m) {
+  return /CERCLE JULES FERRY/i.test(m.domicile);
+}
+
+function renderTabs() {
+  const tabs = document.getElementById('tabs');
+  tabs.innerHTML = '';
+  const allBtn = document.createElement('button');
+  allBtn.textContent = 'Toutes les catégories';
+  allBtn.className = activeCategory === 'ALL' ? 'active' : '';
+  allBtn.onclick = () => { activeCategory = 'ALL'; render(); };
+  tabs.appendChild(allBtn);
+
+  for (const cat of DB.categories) {
+    const btn = document.createElement('button');
+    btn.textContent = cat.code;
+    btn.title = cat.label;
+    btn.className = activeCategory === cat.code ? 'active' : '';
+    btn.onclick = () => { activeCategory = cat.code; render(); };
+    tabs.appendChild(btn);
+  }
+}
+
+function render() {
+  renderTabs();
+  const content = document.getElementById('content');
+  const emptyState = document.getElementById('empty-state');
+  content.innerHTML = '';
+
+  const matches = DB.matches.filter(m => activeCategory === 'ALL' || m.categoryCode === activeCategory);
+
+  if (matches.length === 0) {
+    emptyState.style.display = 'block';
+    return;
+  }
+  emptyState.style.display = 'none';
+
+  const byWeek = new Map();
+  for (const m of matches) {
+    if (!byWeek.has(m.weekStart)) byWeek.set(m.weekStart, []);
+    byWeek.get(m.weekStart).push(m);
+  }
+
+  const weeks = [...byWeek.keys()].sort();
+  for (const week of weeks) {
+    const section = document.createElement('div');
+    section.className = 'week-group';
+    const h2 = document.createElement('h2');
+    h2.textContent = fmtWeekLabel(week);
+    section.appendChild(h2);
+
+    for (const m of byWeek.get(week)) {
+      section.appendChild(renderCard(m));
+    }
+    content.appendChild(section);
+  }
+}
+
+function renderCard(m) {
+  const card = document.createElement('div');
+  card.className = 'match-card ' + (m.statut === 'joue' ? 'joue' : 'a-venir');
+
+  const dt = document.createElement('div');
+  dt.className = 'match-datetime';
+  const j = fmtJour(m.date);
+  dt.innerHTML = `<div class="jour">${j.court || m.dateAffichee}</div><div class="heure">${m.heure || ''}</div>`;
+
+  const teams = document.createElement('div');
+  teams.className = 'match-teams';
+  const home = isHome(m);
+  const domicileHtml = home ? `<span class="cjf">${esc(m.domicile)}</span>` : esc(m.domicile);
+  const exterieurHtml = !home ? `<span class="cjf">${esc(m.exterieur)}</span>` : esc(m.exterieur);
+  teams.innerHTML = `
+    <span class="cat">${esc(m.categoryCode || '')}</span>
+    <div class="versus">${domicileHtml} <span style="color:#999">vs</span> ${exterieurHtml}</div>
+    <div class="lieu">${m.lieu ? esc(m.lieu) : ''}</div>
+  `;
+
+  const score = document.createElement('div');
+  score.className = 'match-score';
+  score.textContent = m.score ? m.score : (m.statut === 'joue' ? '' : 'à venir');
+
+  card.appendChild(dt);
+  card.appendChild(teams);
+  card.appendChild(score);
+  return card;
+}
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+fetch('data/matches.json')
+  .then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  })
+  .then(db => {
+    DB = db;
+    document.getElementById('saison-label').textContent = db.saison;
+    document.getElementById('last-updated').textContent = new Date(db.lastUpdated).toLocaleString('fr-FR');
+    document.getElementById('status').textContent = db.matches.length + ' match(s) programmés sur la saison';
+    render();
+  })
+  .catch(err => {
+    document.getElementById('status').textContent = 'Erreur de chargement des données : ' + err.message;
+  });
+</script>
+
+</body>
+</html>
