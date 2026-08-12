@@ -341,6 +341,14 @@ function teamBadge(name) {
   return `<span class="team-logo-fallback">${esc(initials(name))}</span>`;
 }
 
+// GYMNASE GUY MOCQUET is CJF's home gym: house icon for home games,
+// bus icon for away games (based on the published venue, not the team order).
+function venueIcon(m) {
+  if (!m.lieu) return '';
+  const isDomicileVenue = /GUY MOCQUET/i.test(m.lieu);
+  return isDomicileVenue ? '🏠' : '🚌';
+}
+
 function categoryChip(m) {
   const logo = CAT_LOGOS[m.categoryCode];
   const badge = logo
@@ -544,7 +552,7 @@ function renderCard(m) {
       </div>
     </div>
     <div class="match-bottom">
-      <span class="lieu">${m.lieu ? esc(m.lieu) : ''}</span>
+      <span class="lieu">${venueIcon(m)} ${m.lieu ? esc(m.lieu) : ''}</span>
       <span class="match-score">${m.score ? esc(m.score) : (m.statut === 'joue' ? '' : 'à venir')}</span>
     </div>
   `;
