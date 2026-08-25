@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-08-25T14:29:08.299Z",
+  "lastUpdated": "2026-08-25T17:45:48.986Z",
   "categories": [
     {
       "code": "18A",
@@ -205,9 +205,9 @@
       "date": "2026-10-17",
       "dateAffichee": "17/10",
       "heure": "20:00",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "VBC CHALON SUR SAONE 2",
-      "lieu": "GYMNASE GUY MOCQUET",
+      "domicile": "VBC CHALON SUR SAONE 2",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "MAISON DES SPORTS",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-10-12"
@@ -790,9 +790,9 @@
       "date": "2027-01-31",
       "dateAffichee": "31/01",
       "heure": "15:00",
-      "domicile": "VBC CHALON SUR SAONE 2",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "MAISON DES SPORTS",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "VBC CHALON SUR SAONE 2",
+      "lieu": "GYMNASE GUY MOCQUET",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2027-01-25"
