@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-08-28T01:10:47.243Z",
+  "lastUpdated": "2026-08-28T21:55:18.152Z",
   "categories": [
     {
       "code": "18A",
@@ -303,6 +303,21 @@
       "weekStart": "2026-11-09"
     },
     {
+      "matchId": "RFSA030",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "20:30",
+      "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE CAMILLE DANGUILLAUME",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-09"
+    },
+    {
       "matchId": "3MC028",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -448,21 +463,6 @@
       "domicile": "C'CHARTRES VOLLEY",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "ROSSKOPF",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2026-11-23"
-    },
-    {
-      "matchId": "RFSA030",
-      "categoryCode": "RFS",
-      "categoryLabel": "REGIONALE FEMININE SENIOR",
-      "niveau": "REG",
-      "date": "2026-11-28",
-      "dateAffichee": "28/11",
-      "heure": "20:30",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "UNION SPORTIVE CHAMBRAY LES TOURS",
-      "lieu": "GYMNASE GUY MOCQUET",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-23"
@@ -1249,7 +1249,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 2,
+      "matchCount": 3,
       "status": "ok"
     },
     {
@@ -1261,7 +1261,7 @@
     {
       "weekStart": "2026-11-23",
       "dateJour": 1794956400,
-      "matchCount": 4,
+      "matchCount": 3,
       "status": "ok"
     },
     {
