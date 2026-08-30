@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-08-30T12:08:43.781Z",
+  "lastUpdated": "2026-08-30T14:08:02.698Z",
   "categories": [
     {
       "code": "18A",
@@ -187,9 +187,9 @@
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
       "niveau": "NAT",
-      "date": "2026-10-17",
-      "dateAffichee": "17/10",
-      "heure": "20:00",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": "15:00",
       "domicile": "VBC CHALON SUR SAONE 2",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "MAISON DES SPORTS",
