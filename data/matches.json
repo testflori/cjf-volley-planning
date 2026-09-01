@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-01T14:15:48.702Z",
+  "lastUpdated": "2026-09-01T16:39:51.529Z",
   "categories": [
     {
       "code": "18A",
@@ -468,6 +468,21 @@
       "weekStart": "2026-11-23"
     },
     {
+      "matchId": "RFSA009",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2026-12-05",
+      "dateAffichee": "05/12",
+      "heure": "14:00",
+      "domicile": "ETUDIANT CLUB ORLEANAIS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE DE L'ARGONAUTE",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-30"
+    },
+    {
       "matchId": "18AA023",
       "categoryCode": "18A",
       "categoryLabel": "MOINS DE 18 FEMININES REGION POULE A",
@@ -523,21 +538,6 @@
       "domicile": "xxxxx",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": null,
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2026-11-30"
-    },
-    {
-      "matchId": "RFSA009",
-      "categoryCode": "RFS",
-      "categoryLabel": "REGIONALE FEMININE SENIOR",
-      "niveau": "REG",
-      "date": "2026-12-05",
-      "dateAffichee": "05/12",
-      "heure": "20:30",
-      "domicile": "ETUDIANT CLUB ORLEANAIS",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE DE L'ARGONAUTE",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-30"
