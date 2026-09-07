@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-07T08:17:22.860Z",
+  "lastUpdated": "2026-09-07T10:15:50.576Z",
   "categories": [
     {
       "code": "18A",
@@ -178,7 +178,7 @@
       "domicile": "RIOM VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "AMITIÉ (CEREY)",
-      "score": "AUVERGNE-RHÔNE-ALPES / AUVERGNE-RHÔNE-ALPES",
+      "score": "LATIGE STEPHANE / BERNETTE CHRISTIAN",
       "statut": "joue",
       "weekStart": "2026-10-05"
     },
@@ -208,7 +208,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ANTONY VOLLEY",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "DANAIS CLAUSSE MELISSA / LANGELUS CHRISTINE",
+      "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
       "statut": "joue",
       "weekStart": "2026-10-19"
     },
@@ -438,21 +438,6 @@
       "weekStart": "2026-11-23"
     },
     {
-      "matchId": "R1MA020",
-      "categoryCode": "R1M",
-      "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
-      "niveau": "REG",
-      "date": "2026-11-28",
-      "dateAffichee": "28/11",
-      "heure": "20:30",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "US CHAMBRAY-SAINT CYR VOLLEY-BALL",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2026-11-23"
-    },
-    {
       "matchId": "R2MA020",
       "categoryCode": "R2M",
       "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
@@ -556,6 +541,21 @@
       "score": "AUVERGNE-RHÔNE-ALPES / AUVERGNE-RHÔNE-ALPES",
       "statut": "joue",
       "weekStart": "2026-11-30"
+    },
+    {
+      "matchId": "R1MA020",
+      "categoryCode": "R1M",
+      "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-12-12",
+      "dateAffichee": "12/12",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "US CHAMBRAY-SAINT CYR VOLLEY-BALL",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-12-07"
     },
     {
       "matchId": "3MC047",
@@ -723,6 +723,21 @@
       "weekStart": "2027-01-11"
     },
     {
+      "matchId": "18GR022",
+      "categoryCode": "18G",
+      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
+      "niveau": "REG",
+      "date": "2027-01-23",
+      "dateAffichee": "23/01",
+      "heure": "18:00",
+      "domicile": "ALERTE SPORTIVE MONTLOUIS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "LÉO LAGRANGE (MONTLOUIS)",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-01-18"
+    },
+    {
       "matchId": "18GR019",
       "categoryCode": "18G",
       "categoryLabel": "MOINS DE 18 MASCULIN REGION",
@@ -798,19 +813,19 @@
       "weekStart": "2027-01-25"
     },
     {
-      "matchId": "18GR022",
-      "categoryCode": "18G",
-      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
+      "matchId": "RFSA064",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
       "niveau": "REG",
-      "date": "2027-02-13",
-      "dateAffichee": "13/02",
-      "heure": "18:00",
-      "domicile": "ALERTE SPORTIVE MONTLOUIS",
+      "date": "2027-02-06",
+      "dateAffichee": "06/02",
+      "heure": "20:30",
+      "domicile": "U.S.ORLEANS VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "LÉO LAGRANGE (MONTLOUIS)",
+      "lieu": "GYMNASE BARTHELEMY",
       "score": null,
       "statut": "a_venir",
-      "weekStart": "2027-02-08"
+      "weekStart": "2027-02-01"
     },
     {
       "matchId": "R1MR035",
@@ -838,21 +853,6 @@
       "domicile": "AS NOGENTAISE DE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "LEO LAGRANGE NOGENT LE ROTROU",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2027-02-08"
-    },
-    {
-      "matchId": "RFSA064",
-      "categoryCode": "RFS",
-      "categoryLabel": "REGIONALE FEMININE SENIOR",
-      "niveau": "REG",
-      "date": "2027-02-13",
-      "dateAffichee": "13/02",
-      "heure": "20:30",
-      "domicile": "U.S.ORLEANS VOLLEY-BALL",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE BARTHELEMY",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2027-02-08"
@@ -1068,6 +1068,21 @@
       "weekStart": "2027-03-29"
     },
     {
+      "matchId": "R2MR056",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2027-04-03",
+      "dateAffichee": "03/04",
+      "heure": "20:30",
+      "domicile": "U.S.ORLEANS VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE BARTHELEMY",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-03-29"
+    },
+    {
       "matchId": "3MC116",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -1123,21 +1138,6 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "VOLLEY BEAUNE CLUB",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2027-04-12"
-    },
-    {
-      "matchId": "R2MR056",
-      "categoryCode": "R2M",
-      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
-      "niveau": "REG",
-      "date": "2027-04-17",
-      "dateAffichee": "17/04",
-      "heure": "20:30",
-      "domicile": "U.S.ORLEANS VOLLEY-BALL",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE BARTHELEMY",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2027-04-12"
@@ -1261,7 +1261,7 @@
     {
       "weekStart": "2026-11-23",
       "dateJour": 1794956400,
-      "matchCount": 3,
+      "matchCount": 2,
       "status": "ok"
     },
     {
@@ -1273,7 +1273,7 @@
     {
       "weekStart": "2026-12-07",
       "dateJour": 1796166000,
-      "matchCount": 1,
+      "matchCount": 2,
       "status": "ok"
     },
     {
@@ -1309,7 +1309,7 @@
     {
       "weekStart": "2027-01-18",
       "dateJour": 1799794800,
-      "matchCount": 0,
+      "matchCount": 1,
       "status": "ok"
     },
     {
@@ -1321,13 +1321,13 @@
     {
       "weekStart": "2027-02-01",
       "dateJour": 1801004400,
-      "matchCount": 0,
+      "matchCount": 1,
       "status": "ok"
     },
     {
       "weekStart": "2027-02-08",
       "dateJour": 1801609200,
-      "matchCount": 5,
+      "matchCount": 3,
       "status": "ok"
     },
     {
@@ -1369,7 +1369,7 @@
     {
       "weekStart": "2027-03-29",
       "dateJour": 1805842800,
-      "matchCount": 2,
+      "matchCount": 3,
       "status": "ok"
     },
     {
@@ -1381,7 +1381,7 @@
     {
       "weekStart": "2027-04-12",
       "dateJour": 1807048800,
-      "matchCount": 3,
+      "matchCount": 2,
       "status": "ok"
     },
     {
