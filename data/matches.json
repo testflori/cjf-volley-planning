@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-08T06:19:59.908Z",
+  "lastUpdated": "2026-09-08T08:17:20.318Z",
   "categories": [
     {
       "code": "18A",
@@ -253,21 +253,6 @@
       "domicile": "MONTS VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE DU BOIS FOUCHER",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2026-11-02"
-    },
-    {
-      "matchId": "RFSA017",
-      "categoryCode": "RFS",
-      "categoryLabel": "REGIONALE FEMININE SENIOR",
-      "niveau": "REG",
-      "date": "2026-11-07",
-      "dateAffichee": "07/11",
-      "heure": "20:30",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "NEUVILLE SPORTS",
-      "lieu": "GYMNASE GUY MOCQUET",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-02"
@@ -828,6 +813,21 @@
       "weekStart": "2027-02-01"
     },
     {
+      "matchId": "RFSA017",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2027-02-13",
+      "dateAffichee": "13/02",
+      "heure": "18:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "NEUVILLE SPORTS",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-02-08"
+    },
+    {
       "matchId": "R1MR035",
       "categoryCode": "R1M",
       "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
@@ -1243,7 +1243,7 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 5,
+      "matchCount": 4,
       "status": "ok"
     },
     {
@@ -1327,7 +1327,7 @@
     {
       "weekStart": "2027-02-08",
       "dateJour": 1801609200,
-      "matchCount": 3,
+      "matchCount": 4,
       "status": "ok"
     },
     {
