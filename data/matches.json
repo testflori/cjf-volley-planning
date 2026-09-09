@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-09T06:20:29.831Z",
+  "lastUpdated": "2026-09-09T08:16:47.631Z",
   "categories": [
     {
       "code": "18A",
@@ -468,21 +468,6 @@
       "weekStart": "2026-11-30"
     },
     {
-      "matchId": "18GA013",
-      "categoryCode": "18G",
-      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
-      "niveau": "REG",
-      "date": "2026-12-05",
-      "dateAffichee": "05/12",
-      "heure": "18:00",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "REVEIL SPORTIF DE SAINT-CYR",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2026-11-30"
-    },
-    {
       "matchId": "R1MA021",
       "categoryCode": "R1M",
       "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
@@ -526,6 +511,21 @@
       "score": "MINNE RAPHAELLE / MOUZAIA ABDELMADJID",
       "statut": "joue",
       "weekStart": "2026-11-30"
+    },
+    {
+      "matchId": "18GA013",
+      "categoryCode": "18G",
+      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
+      "niveau": "REG",
+      "date": "2026-12-12",
+      "dateAffichee": "12/12",
+      "heure": "18:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "REVEIL SPORTIF DE SAINT-CYR",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-12-07"
     },
     {
       "matchId": "R1MA020",
@@ -1267,13 +1267,13 @@
     {
       "weekStart": "2026-11-30",
       "dateJour": 1795561200,
-      "matchCount": 6,
+      "matchCount": 5,
       "status": "ok"
     },
     {
       "weekStart": "2026-12-07",
       "dateJour": 1796166000,
-      "matchCount": 2,
+      "matchCount": 3,
       "status": "ok"
     },
     {
