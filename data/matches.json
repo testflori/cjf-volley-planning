@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-10T14:15:22.346Z",
+  "lastUpdated": "2026-09-10T16:15:46.680Z",
   "categories": [
     {
       "code": "18A",
@@ -88,8 +88,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "VOLLEY BEAUNE CLUB",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "BEZY MARY-EMMANUEL / BEAUVIER ARNAUD",
+      "statut": "joue",
       "weekStart": "2026-09-28"
     },
     {
