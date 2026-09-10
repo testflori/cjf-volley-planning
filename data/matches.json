@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-10T16:15:46.680Z",
+  "lastUpdated": "2026-09-10T18:17:25.954Z",
   "categories": [
     {
       "code": "18A",
@@ -43,8 +43,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ASPTT CHATEAUROUX SECTION VB",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "URBANY THIERRY / LANGELUS CHRISTINE",
+      "statut": "joue",
       "weekStart": "2026-09-21"
     },
     {
@@ -58,8 +58,8 @@
       "domicile": "VOLLEY BALL CLUB BALGENTIEN",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE ALAIN JARSAILLON",
-      "score": null,
-      "statut": "a_venir",
+      "score": "POTAU MATHIEU / POTAU LEANNE",
+      "statut": "joue",
       "weekStart": "2026-09-21"
     },
     {
@@ -103,8 +103,8 @@
       "domicile": "JOUE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE HUBERT HENNO",
-      "score": null,
-      "statut": "a_venir",
+      "score": "GASSOT MAXENCE / BRUN LOLA",
+      "statut": "joue",
       "weekStart": "2026-09-28"
     },
     {
@@ -118,8 +118,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "AS NOGENTAISE DE VOLLEY-BALL",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
+      "statut": "joue",
       "weekStart": "2026-09-28"
     },
     {
@@ -133,8 +133,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "AS.CASTELNEUVIENNE V.B.",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
+      "statut": "joue",
       "weekStart": "2026-09-28"
     },
     {
