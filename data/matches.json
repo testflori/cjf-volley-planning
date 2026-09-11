@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-11T10:16:01.875Z",
+  "lastUpdated": "2026-09-11T12:20:21.294Z",
   "categories": [
     {
       "code": "18A",
@@ -148,6 +148,21 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "xxxxx",
       "lieu": null,
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-05"
+    },
+    {
+      "matchId": "18GA004",
+      "categoryCode": "18G",
+      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
+      "niveau": "REG",
+      "date": "2026-10-10",
+      "dateAffichee": "10/10",
+      "heure": "18:00",
+      "domicile": "U.S.ORLEANS VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE BARTHELEMY",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-10-05"
@@ -1219,7 +1234,7 @@
     {
       "weekStart": "2026-10-05",
       "dateJour": 1790719200,
-      "matchCount": 3,
+      "matchCount": 4,
       "status": "ok"
     },
     {
