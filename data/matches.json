@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-15T04:19:27.111Z",
+  "lastUpdated": "2026-09-15T11:27:37.744Z",
   "categories": [
     {
       "code": "18A",
@@ -32,6 +32,21 @@
     }
   ],
   "matches": [
+    {
+      "matchId": "RFSA004",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "18:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "AS.CASTELNEUVIENNE V.B.",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
     {
       "matchId": "R1MA002",
       "categoryCode": "R1M",
@@ -117,21 +132,6 @@
       "heure": "20:30",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "AS NOGENTAISE DE VOLLEY-BALL",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
-      "statut": "joue",
-      "weekStart": "2026-09-28"
-    },
-    {
-      "matchId": "RFSA004",
-      "categoryCode": "RFS",
-      "categoryLabel": "REGIONALE FEMININE SENIOR",
-      "niveau": "REG",
-      "date": "2026-10-03",
-      "dateAffichee": "03/10",
-      "heure": "20:30",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "AS.CASTELNEUVIENNE V.B.",
       "lieu": "GYMNASE GUY MOCQUET",
       "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
       "statut": "joue",
@@ -618,21 +618,6 @@
       "weekStart": "2026-12-14"
     },
     {
-      "matchId": "RFSA044",
-      "categoryCode": "RFS",
-      "categoryLabel": "REGIONALE FEMININE SENIOR",
-      "niveau": "REG",
-      "date": "2027-01-09",
-      "dateAffichee": "09/01",
-      "heure": "20:30",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "MONTLOUIS 1",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2027-01-04"
-    },
-    {
       "matchId": "3MC061",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -733,6 +718,21 @@
       "domicile": "ALERTE SPORTIVE MONTLOUIS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "LÉO LAGRANGE (MONTLOUIS)",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-01-18"
+    },
+    {
+      "matchId": "RFSA044",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2027-01-23",
+      "dateAffichee": "23/01",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "MONTLOUIS 1",
+      "lieu": "GYMNASE GUY MOCQUET",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2027-01-18"
@@ -1222,13 +1222,13 @@
     {
       "weekStart": "2026-09-21",
       "dateJour": 1789509600,
-      "matchCount": 3,
+      "matchCount": 4,
       "status": "ok"
     },
     {
       "weekStart": "2026-09-28",
       "dateJour": 1790114400,
-      "matchCount": 4,
+      "matchCount": 3,
       "status": "ok"
     },
     {
@@ -1312,7 +1312,7 @@
     {
       "weekStart": "2027-01-04",
       "dateJour": 1798585200,
-      "matchCount": 2,
+      "matchCount": 1,
       "status": "ok"
     },
     {
@@ -1324,7 +1324,7 @@
     {
       "weekStart": "2027-01-18",
       "dateJour": 1799794800,
-      "matchCount": 1,
+      "matchCount": 2,
       "status": "ok"
     },
     {
