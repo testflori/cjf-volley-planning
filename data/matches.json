@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-17T04:21:32.825Z",
+  "lastUpdated": "2026-09-17T11:21:45.878Z",
   "categories": [
     {
       "code": "18A",
@@ -119,21 +119,6 @@
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE HUBERT HENNO",
       "score": "GASSOT MAXENCE / BRUN LOLA",
-      "statut": "joue",
-      "weekStart": "2026-09-28"
-    },
-    {
-      "matchId": "R2MA007",
-      "categoryCode": "R2M",
-      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
-      "niveau": "REG",
-      "date": "2026-10-03",
-      "dateAffichee": "03/10",
-      "heure": "20:30",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "AS NOGENTAISE DE VOLLEY-BALL",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
       "statut": "joue",
       "weekStart": "2026-09-28"
     },
@@ -300,6 +285,21 @@
       "lieu": "GYMNASE CAMILLE DANGUILLAUME",
       "score": null,
       "statut": "a_venir",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "R2MA007",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "AS NOGENTAISE DE VOLLEY-BALL",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -595,9 +595,9 @@
       "date": "2026-12-19",
       "dateAffichee": "19/12",
       "heure": "20:30",
-      "domicile": "VOLLEY BEAUNE CLUB",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE INTERCOMMUNAL",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "VOLLEY BEAUNE CLUB",
+      "lieu": "GYMNASE GUY MOCQUET",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-12-14"
@@ -1228,7 +1228,7 @@
     {
       "weekStart": "2026-09-28",
       "dateJour": 1790114400,
-      "matchCount": 3,
+      "matchCount": 2,
       "status": "ok"
     },
     {
@@ -1264,7 +1264,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 3,
+      "matchCount": 4,
       "status": "ok"
     },
     {
