@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-18T07:15:15.075Z",
+  "lastUpdated": "2026-09-18T12:50:39.344Z",
   "categories": [
     {
       "code": "18A",
@@ -43,7 +43,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "AS.CASTELNEUVIENNE V.B.",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
+      "score": "ARABA EMILE / BEZY MARY-EMMANUEL",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
@@ -103,7 +103,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "VOLLEY BEAUNE CLUB",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "BEZY MARY-EMMANUEL / BEAUVIER ARNAUD",
+      "score": "BEZY MARY-EMMANUEL / ARABA EMILE",
       "statut": "joue",
       "weekStart": "2026-09-28"
     },
@@ -268,7 +268,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "UNION SPORTIVE DE VILLEJUIF",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
+      "score": "POTAU MATHIEU / POTAU LEANNE",
       "statut": "joue",
       "weekStart": "2026-11-02"
     },
