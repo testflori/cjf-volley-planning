@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-18T12:50:39.344Z",
+  "lastUpdated": "2026-09-18T17:36:33.223Z",
   "categories": [
     {
       "code": "18A",
@@ -17,6 +17,22 @@
     {
       "code": "3MC",
       "label": "NATIONALE 3 MASCULINE POULE C"
+    },
+    {
+      "code": "BFL",
+      "label": "COUPE DE FRANCE M13 FEMININ POULE L"
+    },
+    {
+      "code": "BMN",
+      "label": "COUPE DE FRANCE M13 MASCULIN POULE N"
+    },
+    {
+      "code": "CGS",
+      "label": "COUPE DE FRANCE M18 FEMININ POULE 28"
+    },
+    {
+      "code": "CMU",
+      "label": "COUPE DE FRANCE M18 MASCULIN POULE U"
     },
     {
       "code": "R1M",
@@ -32,6 +48,126 @@
     }
   ],
   "matches": [
+    {
+      "matchId": "BFL002",
+      "categoryCode": "BFL",
+      "categoryLabel": "COUPE DE FRANCE M13 FEMININ POULE L",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ANTONY VOLLEY",
+      "lieu": "HALLE DES SPORTS",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "BMN003",
+      "categoryCode": "BMN",
+      "categoryLabel": "COUPE DE FRANCE M13 MASCULIN POULE N",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ASV - ARTS ET SPORTS A VILLEBON",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "CGS002",
+      "categoryCode": "CGS",
+      "categoryLabel": "COUPE DE FRANCE M18 FEMININ POULE 28",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": null,
+      "domicile": "SAINT-PIERRE VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE CORNUEL",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "CGS003",
+      "categoryCode": "CGS",
+      "categoryLabel": "COUPE DE FRANCE M18 FEMININ POULE 28",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": null,
+      "domicile": "AMICALE DES SPORTS ET LOISIRS DE JANVILLE LARDY",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE CORNUEL",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "CMU002",
+      "categoryCode": "CMU",
+      "categoryLabel": "COUPE DE FRANCE M18 MASCULIN POULE U",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "EXCELLENCE SUD-ESSONNE VOLLEY-BALL",
+      "lieu": "COMPLEXE SPORTIF",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "BFL001",
+      "categoryCode": "BFL",
+      "categoryLabel": "COUPE DE FRANCE M13 FEMININ POULE L",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "14:30",
+      "domicile": "SMOC ST-JEAN DE BRAYE",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "HALLE DES SPORTS",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "BMN001",
+      "categoryCode": "BMN",
+      "categoryLabel": "COUPE DE FRANCE M13 MASCULIN POULE N",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "14:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ETUDIANT CLUB ORLEANAIS",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "CMU001",
+      "categoryCode": "CMU",
+      "categoryLabel": "COUPE DE FRANCE M18 MASCULIN POULE U",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "14:30",
+      "domicile": "NEUVILLE SPORTS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "COMPLEXE SPORTIF",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
     {
       "matchId": "RFSA004",
       "categoryCode": "RFS",
@@ -418,7 +554,7 @@
       "domicile": "PATRONAGE LAIQUE 010 V.B.",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "COSEC 2 - COMPLEXE HENRI TERRÉ",
-      "score": "GRAND EST / GRAND EST",
+      "score": "GENET LAPUJADE YANN / GRAND EST",
       "statut": "joue",
       "weekStart": "2026-11-16"
     },
@@ -1222,7 +1358,7 @@
     {
       "weekStart": "2026-09-21",
       "dateJour": 1789509600,
-      "matchCount": 4,
+      "matchCount": 12,
       "status": "ok"
     },
     {
