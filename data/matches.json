@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-21T04:19:23.961Z",
+  "lastUpdated": "2026-09-21T12:28:24.908Z",
   "categories": [
     {
       "code": "18A",
@@ -134,8 +134,8 @@
       "domicile": "SMOC ST-JEAN DE BRAYE",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "HALLE DES SPORTS",
-      "score": null,
-      "statut": "a_venir",
+      "score": "LUCET AURELIE /",
+      "statut": "joue",
       "weekStart": "2026-09-21"
     },
     {
