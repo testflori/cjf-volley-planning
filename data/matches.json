@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-21T12:28:24.908Z",
+  "lastUpdated": "2026-09-21T19:11:05.867Z",
   "categories": [
     {
       "code": "18A",
@@ -164,8 +164,8 @@
       "domicile": "NEUVILLE SPORTS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "COMPLEXE SPORTIF",
-      "score": null,
-      "statut": "a_venir",
+      "score": "GASSOT MAXENCE / HURST THIERRY",
+      "statut": "joue",
       "weekStart": "2026-09-21"
     },
     {
@@ -253,7 +253,7 @@
       "heure": "20:30",
       "domicile": "JOUE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE HUBERT HENNO",
+      "lieu": "GYMNASE RENE BOUISSOU",
       "score": "GASSOT MAXENCE / BRUN LOLA",
       "statut": "joue",
       "weekStart": "2026-09-28"
