@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-22T11:17:59.608Z",
+  "lastUpdated": "2026-09-22T16:40:11.345Z",
   "categories": [
     {
       "code": "18A",
@@ -33,6 +33,10 @@
     {
       "code": "CMU",
       "label": "COUPE DE FRANCE M18 MASCULIN POULE U"
+    },
+    {
+      "code": "MFO",
+      "label": "COUPE DE FRANCE M15 FEMININ POULE O"
     },
     {
       "code": "R1M",
@@ -256,6 +260,36 @@
       "lieu": "GYMNASE RENE BOUISSOU",
       "score": "GASSOT MAXENCE / BRUN LOLA",
       "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "MFO002",
+      "categoryCode": "MFO",
+      "categoryLabel": "COUPE DE FRANCE M15 FEMININ POULE O",
+      "niveau": "JEU",
+      "date": "2026-10-04",
+      "dateAffichee": "04/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "VOLLEY-BALL LA ROCHETTE",
+      "lieu": "GYMNASE INTERCOMMUNAL",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "MFO001",
+      "categoryCode": "MFO",
+      "categoryLabel": "COUPE DE FRANCE M15 FEMININ POULE O",
+      "niveau": "JEU",
+      "date": "2026-10-04",
+      "dateAffichee": "04/10",
+      "heure": "11:00",
+      "domicile": "VOLLEY BEAUNE CLUB",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE INTERCOMMUNAL",
+      "score": null,
+      "statut": "a_venir",
       "weekStart": "2026-09-28"
     },
     {
@@ -1364,7 +1398,7 @@
     {
       "weekStart": "2026-09-28",
       "dateJour": 1790114400,
-      "matchCount": 2,
+      "matchCount": 4,
       "status": "ok"
     },
     {
