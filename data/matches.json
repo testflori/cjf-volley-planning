@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-23T07:35:52.063Z",
+  "lastUpdated": "2026-09-23T13:30:42.539Z",
   "categories": [
     {
       "code": "18A",
@@ -62,7 +62,7 @@
       "heure": null,
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ANTONY VOLLEY",
-      "lieu": "HALLE DES SPORTS",
+      "lieu": "ESPACE MARCEL JORIOT",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-09-21"
@@ -122,9 +122,24 @@
       "heure": null,
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "EXCELLENCE SUD-ESSONNE VOLLEY-BALL",
-      "lieu": "COMPLEXE SPORTIF",
+      "lieu": "GYMNASE PIERRE PERCHE",
       "score": null,
       "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "CMU001",
+      "categoryCode": "CMU",
+      "categoryLabel": "COUPE DE FRANCE M18 MASCULIN POULE U",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "13:00",
+      "domicile": "NEUVILLE SPORTS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE PIERRE PERCHE",
+      "score": "GASSOT MAXENCE / HURST THIERRY",
+      "statut": "joue",
       "weekStart": "2026-09-21"
     },
     {
@@ -137,7 +152,7 @@
       "heure": "14:30",
       "domicile": "SMOC ST-JEAN DE BRAYE",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "HALLE DES SPORTS",
+      "lieu": "ESPACE MARCEL JORIOT",
       "score": "LUCET AURELIE /",
       "statut": "joue",
       "weekStart": "2026-09-21"
@@ -155,21 +170,6 @@
       "lieu": "GYMNASE GUY MOCQUET",
       "score": null,
       "statut": "a_venir",
-      "weekStart": "2026-09-21"
-    },
-    {
-      "matchId": "CMU001",
-      "categoryCode": "CMU",
-      "categoryLabel": "COUPE DE FRANCE M18 MASCULIN POULE U",
-      "niveau": "JEU",
-      "date": "2026-09-26",
-      "dateAffichee": "26/09",
-      "heure": "14:30",
-      "domicile": "NEUVILLE SPORTS",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "COMPLEXE SPORTIF",
-      "score": "GASSOT MAXENCE / HURST THIERRY",
-      "statut": "joue",
       "weekStart": "2026-09-21"
     },
     {
