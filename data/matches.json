@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-23T13:30:42.539Z",
+  "lastUpdated": "2026-09-23T18:20:27.487Z",
   "categories": [
     {
       "code": "18A",
@@ -143,6 +143,21 @@
       "weekStart": "2026-09-21"
     },
     {
+      "matchId": "BMN001",
+      "categoryCode": "BMN",
+      "categoryLabel": "COUPE DE FRANCE M13 MASCULIN POULE N",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "13:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ETUDIANT CLUB ORLEANAIS",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-09-21"
+    },
+    {
       "matchId": "BFL001",
       "categoryCode": "BFL",
       "categoryLabel": "COUPE DE FRANCE M13 FEMININ POULE L",
@@ -158,21 +173,6 @@
       "weekStart": "2026-09-21"
     },
     {
-      "matchId": "BMN001",
-      "categoryCode": "BMN",
-      "categoryLabel": "COUPE DE FRANCE M13 MASCULIN POULE N",
-      "niveau": "JEU",
-      "date": "2026-09-26",
-      "dateAffichee": "26/09",
-      "heure": "14:30",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "ETUDIANT CLUB ORLEANAIS",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2026-09-21"
-    },
-    {
       "matchId": "RFSA004",
       "categoryCode": "RFS",
       "categoryLabel": "REGIONALE FEMININE SENIOR",
@@ -183,7 +183,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "AS.CASTELNEUVIENNE V.B.",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "ARABA EMILE / BEZY MARY-EMMANUEL",
+      "score": "ARABA EMILE /",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
