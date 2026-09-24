@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-24T16:52:59.192Z",
+  "lastUpdated": "2026-09-24T21:21:39.473Z",
   "categories": [
     {
       "code": "18A",
@@ -288,8 +288,8 @@
       "domicile": "VOLLEY BEAUNE CLUB",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE INTERCOMMUNAL",
-      "score": null,
-      "statut": "a_venir",
+      "score": "NICOLLE JIMMY / ARABA EMILE",
+      "statut": "joue",
       "weekStart": "2026-09-28"
     },
     {
@@ -753,7 +753,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "U.S.ORLEANS VOLLEY-BALL",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
+      "score": "POTAU MATHIEU / LOUVEAU HUGUES",
       "statut": "joue",
       "weekStart": "2026-12-07"
     },
@@ -783,7 +783,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "CLUB SPOR. FONTAINE LES DIJON",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
+      "score": "BEAUVIER ARNAUD / LANGELUS CHRISTINE",
       "statut": "joue",
       "weekStart": "2026-12-14"
     },
@@ -873,7 +873,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "VOLLEY CLUB MACONNAIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
+      "score": "CAPY NICOLAS / LANGELUS CHRISTINE",
       "statut": "joue",
       "weekStart": "2027-01-11"
     },
@@ -978,7 +978,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "VBC CHALON SUR SAONE 2",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
+      "score": "POTAU MATHIEU / QUINGUE SAMUEL",
       "statut": "joue",
       "weekStart": "2027-01-25"
     },
@@ -1053,7 +1053,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "RIOM VOLLEY-BALL",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
+      "score": "VIÉ ARNAUD / BEZY MARY-EMMANUEL",
       "statut": "joue",
       "weekStart": "2027-02-08"
     },
