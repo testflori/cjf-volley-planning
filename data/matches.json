@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-24T04:07:22.520Z",
+  "lastUpdated": "2026-09-24T11:27:23.845Z",
   "categories": [
     {
       "code": "18A",
@@ -90,9 +90,9 @@
       "date": "2026-09-26",
       "dateAffichee": "26/09",
       "heure": null,
-      "domicile": "SAINT-PIERRE VOLLEY-BALL",
+      "domicile": "AMICALE DES SPORTS ET LOISIRS DE JANVILLE LARDY",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE CORNUEL",
+      "lieu": "GYMNASE LACHENAL",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-09-21"
@@ -105,9 +105,9 @@
       "date": "2026-09-26",
       "dateAffichee": "26/09",
       "heure": null,
-      "domicile": "AMICALE DES SPORTS ET LOISIRS DE JANVILLE LARDY",
+      "domicile": "SAINT-PIERRE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE CORNUEL",
+      "lieu": "GYMNASE LACHENAL",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-09-21"
@@ -153,8 +153,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ETUDIANT CLUB ORLEANAIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "RENARD PIERRE /",
+      "statut": "joue",
       "weekStart": "2026-09-21"
     },
     {
@@ -563,21 +563,6 @@
       "weekStart": "2026-11-16"
     },
     {
-      "matchId": "RFSA020",
-      "categoryCode": "RFS",
-      "categoryLabel": "REGIONALE FEMININE SENIOR",
-      "niveau": "REG",
-      "date": "2026-11-21",
-      "dateAffichee": "21/11",
-      "heure": "20:30",
-      "domicile": "JOUE VOLLEY-BALL",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE HUBERT HENNO",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2026-11-16"
-    },
-    {
       "matchId": "3MC039",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -698,6 +683,21 @@
       "weekStart": "2026-11-30"
     },
     {
+      "matchId": "18AA026",
+      "categoryCode": "18A",
+      "categoryLabel": "MOINS DE 18 FEMININES REGION POULE A",
+      "niveau": "REG",
+      "date": "2026-12-12",
+      "dateAffichee": "12/12",
+      "heure": "18:00",
+      "domicile": "JOUE VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE HUBERT HENNO",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-12-07"
+    },
+    {
       "matchId": "18GA013",
       "categoryCode": "18G",
       "categoryLabel": "MOINS DE 18 MASCULIN REGION",
@@ -728,6 +728,21 @@
       "weekStart": "2026-12-07"
     },
     {
+      "matchId": "RFSA020",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2026-12-12",
+      "dateAffichee": "12/12",
+      "heure": "20:30",
+      "domicile": "JOUE VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE HUBERT HENNO",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-12-07"
+    },
+    {
       "matchId": "3MC047",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -741,21 +756,6 @@
       "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
       "statut": "joue",
       "weekStart": "2026-12-07"
-    },
-    {
-      "matchId": "18AA026",
-      "categoryCode": "18A",
-      "categoryLabel": "MOINS DE 18 FEMININES REGION POULE A",
-      "niveau": "REG",
-      "date": "2026-12-19",
-      "dateAffichee": "19/12",
-      "heure": "18:00",
-      "domicile": "JOUE VOLLEY-BALL",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE HUBERT HENNO",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2026-12-14"
     },
     {
       "matchId": "RFSA042",
@@ -1440,7 +1440,7 @@
     {
       "weekStart": "2026-11-16",
       "dateJour": 1794351600,
-      "matchCount": 6,
+      "matchCount": 5,
       "status": "ok"
     },
     {
@@ -1458,13 +1458,13 @@
     {
       "weekStart": "2026-12-07",
       "dateJour": 1796166000,
-      "matchCount": 3,
+      "matchCount": 5,
       "status": "ok"
     },
     {
       "weekStart": "2026-12-14",
       "dateJour": 1796770800,
-      "matchCount": 3,
+      "matchCount": 2,
       "status": "ok"
     },
     {
