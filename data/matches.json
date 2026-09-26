@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-26T16:08:29.248Z",
+  "lastUpdated": "2026-09-26T20:53:26.542Z",
   "categories": [
     {
       "code": "18A",
@@ -62,9 +62,39 @@
       "heure": null,
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ANTONY VOLLEY",
-      "lieu": "ESPACE MARCEL JORIOT",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "2",
+      "score": "15:25, 17:25 032:050 LUCET AURELIE /",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "BFL002",
+      "categoryCode": "BFL",
+      "categoryLabel": "COUPE DE FRANCE M13 FEMININ POULE L",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ANTONY VOLLEY",
+      "lieu": "2",
+      "score": "15:25, 17:25 032:050 LUCET AURELIE /",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "BFL002",
+      "categoryCode": "BFL",
+      "categoryLabel": "COUPE DE FRANCE M13 FEMININ POULE L",
+      "niveau": "JEU",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ANTONY VOLLEY",
+      "lieu": "2",
+      "score": "15:25, 17:25 032:050 LUCET AURELIE /",
+      "statut": "joue",
       "weekStart": "2026-09-21"
     },
     {
@@ -392,8 +422,38 @@
       "heure": "18:00",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "AS.CASTELNEUVIENNE V.B.",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "ARABA EMILE /",
+      "lieu": "2",
+      "score": "16:25, 27:25, 25:9, 14:25, 15:8 097:092 ARABA EMILE /",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "RFSA004",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "18:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "AS.CASTELNEUVIENNE V.B.",
+      "lieu": "2",
+      "score": "16:25, 27:25, 25:9, 14:25, 15:8 097:092 ARABA EMILE /",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "RFSA004",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "18:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "AS.CASTELNEUVIENNE V.B.",
+      "lieu": "2",
+      "score": "16:25, 27:25, 25:9, 14:25, 15:8 097:092 ARABA EMILE /",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
@@ -407,8 +467,38 @@
       "heure": "20:30",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ASPTT CHATEAUROUX SECTION VB",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "URBANY THIERRY / LANGELUS CHRISTINE",
+      "lieu": "0",
+      "score": "25:17, 26:24, 25:21 076:062 URBANY THIERRY / LANGELUS CHRISTINE",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "R1MA002",
+      "categoryCode": "R1M",
+      "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ASPTT CHATEAUROUX SECTION VB",
+      "lieu": "0",
+      "score": "25:17, 26:24, 25:21 076:062 URBANY THIERRY / LANGELUS CHRISTINE",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "R1MA002",
+      "categoryCode": "R1M",
+      "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ASPTT CHATEAUROUX SECTION VB",
+      "lieu": "0",
+      "score": "25:17, 26:24, 25:21 076:062 URBANY THIERRY / LANGELUS CHRISTINE",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
@@ -422,8 +512,38 @@
       "heure": "20:30",
       "domicile": "VOLLEY BALL CLUB BALGENTIEN",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE ALAIN JARSAILLON",
-      "score": "POTAU MATHIEU / POTAU LEANNE",
+      "lieu": "1",
+      "score": "25:23, 25:27, 25:22, 25:19 100:091 POTAU MATHIEU / POTAU LEANNE",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "R2MA002",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "20:30",
+      "domicile": "VOLLEY BALL CLUB BALGENTIEN",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "1",
+      "score": "25:23, 25:27, 25:22, 25:19 100:091 POTAU MATHIEU / POTAU LEANNE",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "R2MA002",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-09-26",
+      "dateAffichee": "26/09",
+      "heure": "20:30",
+      "domicile": "VOLLEY BALL CLUB BALGENTIEN",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "1",
+      "score": "25:23, 25:27, 25:22, 25:19 100:091 POTAU MATHIEU / POTAU LEANNE",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
@@ -603,8 +723,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ALERTE SPORTIVE MONTLOUIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "DUCHAUSSOY EMILIE / PERCEVIC DRAGAN",
+      "statut": "joue",
       "weekStart": "2026-11-02"
     },
     {
@@ -618,8 +738,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ALERTE SPORTIVE MONTLOUIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "PERCEVIC DRAGAN / DUCHAUSSOY EMILIE",
+      "statut": "joue",
       "weekStart": "2026-11-02"
     },
     {
@@ -633,8 +753,8 @@
       "domicile": "MONTS VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE DU BOIS FOUCHER",
-      "score": null,
-      "statut": "a_venir",
+      "score": "TUFELE ALEXANDRE / TUFELE LUKA",
+      "statut": "joue",
       "weekStart": "2026-11-02"
     },
     {
@@ -663,8 +783,8 @@
       "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE CAMILLE DANGUILLAUME",
-      "score": null,
-      "statut": "a_venir",
+      "score": "BODIN BAPTISTE / THOMAS PATRICE",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -693,8 +813,8 @@
       "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE CAMILLE DANGUILLAUME",
-      "score": null,
-      "statut": "a_venir",
+      "score": "THOMAS PATRICE / BODIN BAPTISTE",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -1602,7 +1722,7 @@
     {
       "weekStart": "2026-09-21",
       "dateJour": 1789509600,
-      "matchCount": 26,
+      "matchCount": 34,
       "status": "ok"
     },
     {
