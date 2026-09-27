@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-27T13:44:28.553Z",
+  "lastUpdated": "2026-09-27T18:11:32.956Z",
   "categories": [
     {
       "code": "18A",
@@ -557,8 +557,38 @@
       "heure": "16:00",
       "domicile": "VOLLEY CLUB MACONNAIS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "PALAIS DES SPORTS",
-      "score": "RIBOULET SEBASTIEN / MENS MATHIEU",
+      "lieu": "0",
+      "score": "25:22, 25:19, 25:23 075:064 RIBOULET SEBASTIEN / MENS MATHIEU",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "3MC006",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-09-27",
+      "dateAffichee": "27/09",
+      "heure": "16:00",
+      "domicile": "VOLLEY CLUB MACONNAIS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:22, 25:19, 25:23 075:064 RIBOULET SEBASTIEN / MENS MATHIEU",
+      "statut": "joue",
+      "weekStart": "2026-09-21"
+    },
+    {
+      "matchId": "3MC006",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-09-27",
+      "dateAffichee": "27/09",
+      "heure": "16:00",
+      "domicile": "VOLLEY CLUB MACONNAIS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:22, 25:19, 25:23 075:064 RIBOULET SEBASTIEN / MENS MATHIEU",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
@@ -1722,7 +1752,7 @@
     {
       "weekStart": "2026-09-21",
       "dateJour": 1789509600,
-      "matchCount": 34,
+      "matchCount": 36,
       "status": "ok"
     },
     {
