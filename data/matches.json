@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-09-28T04:44:42.457Z",
+  "lastUpdated": "2026-09-28T13:26:45.274Z",
   "categories": [
     {
       "code": "18A",
@@ -741,6 +741,21 @@
       "score": "DANAIS CLAUSSE MELISSA / LANGELUS CHRISTINE",
       "statut": "joue",
       "weekStart": "2026-10-19"
+    },
+    {
+      "matchId": "18AA012",
+      "categoryCode": "18A",
+      "categoryLabel": "MOINS DE 18 FEMININES REGION POULE A",
+      "niveau": "REG",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "18:00",
+      "domicile": "VOLLEY BEAUNE CLUB",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE INTERCOMMUNAL",
+      "score": "BEAUVIER ARNAUD /",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
     },
     {
       "matchId": "18GA007",
@@ -1788,7 +1803,7 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 4,
+      "matchCount": 5,
       "status": "ok"
     },
     {
