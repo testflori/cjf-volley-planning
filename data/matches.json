@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-02T12:13:45.866Z",
+  "lastUpdated": "2026-10-02T19:05:17.457Z",
   "categories": [
     {
       "code": "18A",
@@ -888,8 +888,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ALERTE SPORTIVE MONTLOUIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "AUGER LE ROY EWAN /",
+      "statut": "joue",
       "weekStart": "2026-11-16"
     },
     {
@@ -903,8 +903,8 @@
       "domicile": "UNION SP VENDOMOISE",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "MAILLETTES",
-      "score": null,
-      "statut": "a_venir",
+      "score": "CHAMPAGNE JACQUES / CHAMPAGNE LUC",
+      "statut": "joue",
       "weekStart": "2026-11-16"
     },
     {
@@ -918,8 +918,8 @@
       "domicile": "UNION SP VENDOMOISE",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "MAILLETTES",
-      "score": null,
-      "statut": "a_venir",
+      "score": "CHAMPAGNE LUC / CHAMPAGNE JACQUES",
+      "statut": "joue",
       "weekStart": "2026-11-16"
     },
     {
@@ -1113,8 +1113,8 @@
       "domicile": "JOUE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE HUBERT HENNO",
-      "score": null,
-      "statut": "a_venir",
+      "score": "BLAIS OLIVIA / ROCHAIS BRUNO",
+      "statut": "joue",
       "weekStart": "2026-12-07"
     },
     {
