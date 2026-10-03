@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-03T16:01:32.139Z",
+  "lastUpdated": "2026-10-03T20:51:07.546Z",
   "categories": [
     {
       "code": "18A",
@@ -602,8 +602,38 @@
       "heure": "18:00",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "VOLLEY BEAUNE CLUB",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "BEZY MARY-EMMANUEL / ARABA EMILE",
+      "lieu": "3",
+      "score": "18:25, 25:23, 17:25, 21:25 081:098 BEZY MARY-EMMANUEL / ARABA EMILE",
+      "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "18GA001",
+      "categoryCode": "18G",
+      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
+      "niveau": "REG",
+      "date": "2026-10-03",
+      "dateAffichee": "03/10",
+      "heure": "18:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "VOLLEY BEAUNE CLUB",
+      "lieu": "3",
+      "score": "18:25, 25:23, 17:25, 21:25 081:098 BEZY MARY-EMMANUEL / ARABA EMILE",
+      "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "18GA001",
+      "categoryCode": "18G",
+      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
+      "niveau": "REG",
+      "date": "2026-10-03",
+      "dateAffichee": "03/10",
+      "heure": "18:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "VOLLEY BEAUNE CLUB",
+      "lieu": "3",
+      "score": "18:25, 25:23, 17:25, 21:25 081:098 BEZY MARY-EMMANUEL / ARABA EMILE",
       "statut": "joue",
       "weekStart": "2026-09-28"
     },
@@ -1773,7 +1803,7 @@
     {
       "weekStart": "2026-09-28",
       "dateJour": 1790114400,
-      "matchCount": 4,
+      "matchCount": 6,
       "status": "ok"
     },
     {
