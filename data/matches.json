@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-04T08:14:03.723Z",
+  "lastUpdated": "2026-10-04T15:12:38.294Z",
   "categories": [
     {
       "code": "18A",
@@ -692,9 +692,39 @@
       "heure": null,
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "VOLLEY-BALL LA ROCHETTE",
-      "lieu": "GYMNASE INTERCOMMUNAL",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "2",
+      "score": "6:25, 8:25 014:050 ARABA EMILE / NICOLLE JIMMY",
+      "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "MFO002",
+      "categoryCode": "MFO",
+      "categoryLabel": "COUPE DE FRANCE M15 FEMININ POULE O",
+      "niveau": "JEU",
+      "date": "2026-10-04",
+      "dateAffichee": "04/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "VOLLEY-BALL LA ROCHETTE",
+      "lieu": "2",
+      "score": "6:25, 8:25 014:050 ARABA EMILE / NICOLLE JIMMY",
+      "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "MFO002",
+      "categoryCode": "MFO",
+      "categoryLabel": "COUPE DE FRANCE M15 FEMININ POULE O",
+      "niveau": "JEU",
+      "date": "2026-10-04",
+      "dateAffichee": "04/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "VOLLEY-BALL LA ROCHETTE",
+      "lieu": "2",
+      "score": "6:25, 8:25 014:050 ARABA EMILE / NICOLLE JIMMY",
+      "statut": "joue",
       "weekStart": "2026-09-28"
     },
     {
@@ -707,8 +737,38 @@
       "heure": "11:00",
       "domicile": "VOLLEY BEAUNE CLUB",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE INTERCOMMUNAL",
-      "score": "NICOLLE JIMMY / ARABA EMILE",
+      "lieu": "0",
+      "score": "25:7, 25:5 050:012 NICOLLE JIMMY / ARABA EMILE",
+      "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "MFO001",
+      "categoryCode": "MFO",
+      "categoryLabel": "COUPE DE FRANCE M15 FEMININ POULE O",
+      "niveau": "JEU",
+      "date": "2026-10-04",
+      "dateAffichee": "04/10",
+      "heure": "11:00",
+      "domicile": "VOLLEY BEAUNE CLUB",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:7, 25:5 050:012 NICOLLE JIMMY / ARABA EMILE",
+      "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "MFO001",
+      "categoryCode": "MFO",
+      "categoryLabel": "COUPE DE FRANCE M15 FEMININ POULE O",
+      "niveau": "JEU",
+      "date": "2026-10-04",
+      "dateAffichee": "04/10",
+      "heure": "11:00",
+      "domicile": "VOLLEY BEAUNE CLUB",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:7, 25:5 050:012 NICOLLE JIMMY / ARABA EMILE",
       "statut": "joue",
       "weekStart": "2026-09-28"
     },
@@ -1833,7 +1893,7 @@
     {
       "weekStart": "2026-09-28",
       "dateJour": 1790114400,
-      "matchCount": 8,
+      "matchCount": 12,
       "status": "ok"
     },
     {
