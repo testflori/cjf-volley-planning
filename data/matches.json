@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-03T20:51:07.546Z",
+  "lastUpdated": "2026-10-04T00:25:17.779Z",
   "categories": [
     {
       "code": "18A",
@@ -647,8 +647,38 @@
       "heure": "20:30",
       "domicile": "JOUE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE RENE BOUISSOU",
-      "score": "SERVAN NICOLAS / LAURENT GUILLAUME",
+      "lieu": "2",
+      "score": "23:25, 22:25, 25:22, 25:18, 15:10 110:100 SERVAN NICOLAS / LAURENT GUILLAUME",
+      "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "R1MA007",
+      "categoryCode": "R1M",
+      "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-10-03",
+      "dateAffichee": "03/10",
+      "heure": "20:30",
+      "domicile": "JOUE VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "2",
+      "score": "23:25, 22:25, 25:22, 25:18, 15:10 110:100 SERVAN NICOLAS / LAURENT GUILLAUME",
+      "statut": "joue",
+      "weekStart": "2026-09-28"
+    },
+    {
+      "matchId": "R1MA007",
+      "categoryCode": "R1M",
+      "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-10-03",
+      "dateAffichee": "03/10",
+      "heure": "20:30",
+      "domicile": "JOUE VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "2",
+      "score": "23:25, 22:25, 25:22, 25:18, 15:10 110:100 SERVAN NICOLAS / LAURENT GUILLAUME",
       "statut": "joue",
       "weekStart": "2026-09-28"
     },
@@ -1803,7 +1833,7 @@
     {
       "weekStart": "2026-09-28",
       "dateJour": 1790114400,
-      "matchCount": 6,
+      "matchCount": 8,
       "status": "ok"
     },
     {
