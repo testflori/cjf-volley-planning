@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-07T13:01:12.193Z",
+  "lastUpdated": "2026-10-07T19:50:01.501Z",
   "categories": [
     {
       "code": "18A",
@@ -27,12 +27,24 @@
       "label": "COUPE DE FRANCE M13 MASCULIN POULE N"
     },
     {
+      "code": "CFP",
+      "label": "COUPE DE FRANCE M18 FEMININ POULE P"
+    },
+    {
       "code": "CGS",
       "label": "COUPE DE FRANCE M18 FEMININ POULE 28"
     },
     {
       "code": "CMU",
       "label": "COUPE DE FRANCE M18 MASCULIN POULE U"
+    },
+    {
+      "code": "CX1",
+      "label": "COUPE DE FRANCE M18 MASCULIN POULE 1"
+    },
+    {
+      "code": "JX2",
+      "label": "COUPE DE FRANCE M21 MASCULIN POULE 2"
     },
     {
       "code": "MFO",
@@ -831,6 +843,96 @@
       "score": "LATIGE STEPHANE / BERNETTE CHRISTIAN",
       "statut": "joue",
       "weekStart": "2026-10-05"
+    },
+    {
+      "matchId": "CFP006",
+      "categoryCode": "CFP",
+      "categoryLabel": "COUPE DE FRANCE M18 FEMININ POULE P",
+      "niveau": "JEU",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "CLUB SPORTIF MENNECY",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "CX1005",
+      "categoryCode": "CX1",
+      "categoryLabel": "COUPE DE FRANCE M18 MASCULIN POULE 1",
+      "niveau": "JEU",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": null,
+      "domicile": "VOLLEY-BALL LA ROCHETTE",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE MUNICIPAL",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "CX1006",
+      "categoryCode": "CX1",
+      "categoryLabel": "COUPE DE FRANCE M18 MASCULIN POULE 1",
+      "niveau": "JEU",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": null,
+      "domicile": "AS BALNEOLITAINE",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE MUNICIPAL",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "JX2002",
+      "categoryCode": "JX2",
+      "categoryLabel": "COUPE DE FRANCE M21 MASCULIN POULE 2",
+      "niveau": "JEU",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": null,
+      "domicile": "ANTONY VOLLEY",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE MUNICIPAL",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "JX2003",
+      "categoryCode": "JX2",
+      "categoryLabel": "COUPE DE FRANCE M21 MASCULIN POULE 2",
+      "niveau": "JEU",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": null,
+      "domicile": "EXCELLENCE SUD-ESSONNE VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE MUNICIPAL",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "CFP004",
+      "categoryCode": "CFP",
+      "categoryLabel": "COUPE DE FRANCE M18 FEMININ POULE P",
+      "niveau": "JEU",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": "11:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ETUDIANT CLUB ORLEANAIS",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-12"
     },
     {
       "matchId": "3MC008",
@@ -1905,7 +2007,7 @@
     {
       "weekStart": "2026-10-12",
       "dateJour": 1791324000,
-      "matchCount": 1,
+      "matchCount": 7,
       "status": "ok"
     },
     {
