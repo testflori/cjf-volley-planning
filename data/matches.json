@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-10T12:13:18.613Z",
+  "lastUpdated": "2026-10-10T18:22:08.895Z",
   "categories": [
     {
       "code": "18A",
@@ -345,7 +345,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ETUDIANT CLUB ORLEANAIS",
       "lieu": "2",
-      "score": "0:25, 0:25 000:050 GIRAUDEAU LOIC /",
+      "score": "0:25, 0:25 000:050 RENARD PIERRE /",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
@@ -360,7 +360,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ETUDIANT CLUB ORLEANAIS",
       "lieu": "2",
-      "score": "0:25, 0:25 000:050 GIRAUDEAU LOIC /",
+      "score": "0:25, 0:25 000:050 RENARD PIERRE /",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
@@ -375,7 +375,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ETUDIANT CLUB ORLEANAIS",
       "lieu": "2",
-      "score": "0:25, 0:25 000:050 GIRAUDEAU LOIC /",
+      "score": "0:25, 0:25 000:050 RENARD PIERRE /",
       "statut": "joue",
       "weekStart": "2026-09-21"
     },
@@ -809,8 +809,38 @@
       "heure": "18:00",
       "domicile": "U.S.ORLEANS VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE BARTHELEMY",
-      "score": "LUCET AURELIE / ADLER PEROLINE",
+      "lieu": "3",
+      "score": "19:25, 20:25, 25:21, 24:26 088:097 ADLER PEROLINE / ADLER PEROLINE",
+      "statut": "joue",
+      "weekStart": "2026-10-05"
+    },
+    {
+      "matchId": "18GA004",
+      "categoryCode": "18G",
+      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
+      "niveau": "REG",
+      "date": "2026-10-10",
+      "dateAffichee": "10/10",
+      "heure": "18:00",
+      "domicile": "U.S.ORLEANS VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "3",
+      "score": "19:25, 20:25, 25:21, 24:26 088:097 ADLER PEROLINE / ADLER PEROLINE",
+      "statut": "joue",
+      "weekStart": "2026-10-05"
+    },
+    {
+      "matchId": "18GA004",
+      "categoryCode": "18G",
+      "categoryLabel": "MOINS DE 18 MASCULIN REGION",
+      "niveau": "REG",
+      "date": "2026-10-10",
+      "dateAffichee": "10/10",
+      "heure": "18:00",
+      "domicile": "U.S.ORLEANS VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "3",
+      "score": "19:25, 20:25, 25:21, 24:26 088:097 ADLER PEROLINE / ADLER PEROLINE",
       "statut": "joue",
       "weekStart": "2026-10-05"
     },
@@ -2001,7 +2031,7 @@
     {
       "weekStart": "2026-10-05",
       "dateJour": 1790719200,
-      "matchCount": 4,
+      "matchCount": 6,
       "status": "ok"
     },
     {
