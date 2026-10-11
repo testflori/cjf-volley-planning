@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-11T12:27:44.526Z",
+  "lastUpdated": "2026-10-11T18:44:22.336Z",
   "categories": [
     {
       "code": "18A",
@@ -869,8 +869,38 @@
       "heure": "15:00",
       "domicile": "RIOM VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "AMITIÉ (CEREY)",
-      "score": "OCCITANIE / BERNETTE CHRISTIAN",
+      "lieu": "3",
+      "score": "25:17, 14:25, 19:25, 25:21, 10:15 093:103 BERNETTE CHRISTIAN / LEMOINE JEAN-MARIE",
+      "statut": "joue",
+      "weekStart": "2026-10-05"
+    },
+    {
+      "matchId": "3MC017",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-10-11",
+      "dateAffichee": "11/10",
+      "heure": "15:00",
+      "domicile": "RIOM VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "3",
+      "score": "25:17, 14:25, 19:25, 25:21, 10:15 093:103 BERNETTE CHRISTIAN / LEMOINE JEAN-MARIE",
+      "statut": "joue",
+      "weekStart": "2026-10-05"
+    },
+    {
+      "matchId": "3MC017",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-10-11",
+      "dateAffichee": "11/10",
+      "heure": "15:00",
+      "domicile": "RIOM VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "3",
+      "score": "25:17, 14:25, 19:25, 25:21, 10:15 093:103 BERNETTE CHRISTIAN / LEMOINE JEAN-MARIE",
       "statut": "joue",
       "weekStart": "2026-10-05"
     },
@@ -960,8 +990,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ETUDIANT CLUB ORLEANAIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "ARABA EMILE / DUCHAUSSOY EMILIE",
+      "statut": "joue",
       "weekStart": "2026-10-12"
     },
     {
@@ -1215,8 +1245,8 @@
       "domicile": "BOURGES VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "LEO LAGRANGE",
-      "score": null,
-      "statut": "a_venir",
+      "score": "PROSPA FLORENCE / PERCEVIC DRAGAN",
+      "statut": "joue",
       "weekStart": "2026-11-23"
     },
     {
@@ -1230,8 +1260,8 @@
       "domicile": "C'CHARTRES VOLLEY",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "ROSSKOPF",
-      "score": null,
-      "statut": "a_venir",
+      "score": "DAUPHIN KILLIAN / CARRON STEPHANE",
+      "statut": "joue",
       "weekStart": "2026-11-23"
     },
     {
@@ -1245,8 +1275,8 @@
       "domicile": "ETUDIANT CLUB ORLEANAIS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE DE L'ARGONAUTE",
-      "score": null,
-      "statut": "a_venir",
+      "score": "NICOLLE JIMMY /",
+      "statut": "joue",
       "weekStart": "2026-11-30"
     },
     {
@@ -1260,8 +1290,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "UNION SP VENDOMOISE",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "GASSOT AXELLE /",
+      "statut": "joue",
       "weekStart": "2026-11-30"
     },
     {
@@ -1320,8 +1350,8 @@
       "domicile": "JOUE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE HUBERT HENNO",
-      "score": null,
-      "statut": "a_venir",
+      "score": "BONUS PERROTIN CYPRIEN / MORIN JEANNE",
+      "statut": "joue",
       "weekStart": "2026-12-07"
     },
     {
@@ -1335,8 +1365,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "REVEIL SPORTIF DE SAINT-CYR",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "DUCHAUSSOY EMILIE / BEAUVIER ARNAUD",
+      "statut": "joue",
       "weekStart": "2026-12-07"
     },
     {
@@ -1350,8 +1380,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "US CHAMBRAY-SAINT CYR VOLLEY-BALL",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "BEAUVIER ARNAUD / DUCHAUSSOY EMILIE",
+      "statut": "joue",
       "weekStart": "2026-12-07"
     },
     {
@@ -1395,8 +1425,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "VOLLEY BEAUNE CLUB",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "DUCHAUSSOY EMILIE / URBANY THIERRY",
+      "statut": "joue",
       "weekStart": "2026-12-14"
     },
     {
@@ -2031,7 +2061,7 @@
     {
       "weekStart": "2026-10-05",
       "dateJour": 1790719200,
-      "matchCount": 6,
+      "matchCount": 8,
       "status": "ok"
     },
     {
