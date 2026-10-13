@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-13T06:19:09.340Z",
+  "lastUpdated": "2026-10-13T15:46:51.368Z",
   "categories": [
     {
       "code": "18A",
@@ -15,8 +15,16 @@
       "label": "MOINS DE 18 MASCULIN REGION"
     },
     {
+      "code": "21A",
+      "label": "M21 Départementale Féminines -Poule A"
+    },
+    {
       "code": "3MC",
       "label": "NATIONALE 3 MASCULINE POULE C"
+    },
+    {
+      "code": "ACC",
+      "label": "Seniors Masculins Départementaux -Access'"
     },
     {
       "code": "BFL",
@@ -35,6 +43,10 @@
       "label": "COUPE DE FRANCE M18 FEMININ POULE 28"
     },
     {
+      "code": "CLD",
+      "label": "Competlib' débutant -Poule A"
+    },
+    {
       "code": "CMU",
       "label": "COUPE DE FRANCE M18 MASCULIN POULE U"
     },
@@ -51,6 +63,10 @@
       "label": "COUPE DE FRANCE M15 FEMININ POULE O"
     },
     {
+      "code": "NFE",
+      "label": "CHALLENGE DE FRANCE M15 FEMININ POULE E"
+    },
+    {
       "code": "R1M",
       "label": "REGIONALE 1 MASCULIN SENIOR"
     },
@@ -61,6 +77,10 @@
     {
       "code": "RFS",
       "label": "REGIONALE FEMININE SENIOR"
+    },
+    {
+      "code": "SFD",
+      "label": "Seniors Féminines Départementales"
     }
   ],
   "matches": [
@@ -959,7 +979,7 @@
       "heure": null,
       "domicile": "ANTONY VOLLEY",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE MUNICIPAL",
+      "lieu": "GYMNASE INTERCO DES 2 VALLEES",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-10-12"
@@ -974,7 +994,7 @@
       "heure": null,
       "domicile": "EXCELLENCE SUD-ESSONNE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE MUNICIPAL",
+      "lieu": "GYMNASE INTERCO DES 2 VALLEES",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-10-12"
@@ -986,7 +1006,7 @@
       "niveau": "JEU",
       "date": "2026-10-18",
       "dateAffichee": "18/10",
-      "heure": "11:00",
+      "heure": "14:30",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ETUDIANT CLUB ORLEANAIS",
       "lieu": "GYMNASE GUY MOCQUET",
@@ -1010,6 +1030,36 @@
       "weekStart": "2026-10-12"
     },
     {
+      "matchId": "NFE002",
+      "categoryCode": "NFE",
+      "categoryLabel": "CHALLENGE DE FRANCE M15 FEMININ POULE E",
+      "niveau": "JEU",
+      "date": "2026-10-25",
+      "dateAffichee": "25/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "SPORTING CLUB DE L OUEST",
+      "lieu": "LEO LAGRANGE",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-19"
+    },
+    {
+      "matchId": "NFE001",
+      "categoryCode": "NFE",
+      "categoryLabel": "CHALLENGE DE FRANCE M15 FEMININ POULE E",
+      "niveau": "JEU",
+      "date": "2026-10-25",
+      "dateAffichee": "25/10",
+      "heure": "11:00",
+      "domicile": "ALERTE SPORTIVE MONTLOUIS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "LEO LAGRANGE",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-10-19"
+    },
+    {
       "matchId": "3MC021",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -1023,6 +1073,21 @@
       "score": "DANAIS CLAUSSE MELISSA / LANGELUS CHRISTINE",
       "statut": "joue",
       "weekStart": "2026-10-19"
+    },
+    {
+      "matchId": "CLD003",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-06",
+      "dateAffichee": "06/11",
+      "heure": "21:15",
+      "domicile": "St Denis en Val",
+      "exterieur": "CJF Fleury",
+      "lieu": "Village sportif -Gymnase n°2",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-02"
     },
     {
       "matchId": "18AA012",
@@ -1085,6 +1150,21 @@
       "weekStart": "2026-11-02"
     },
     {
+      "matchId": "21A003",
+      "categoryCode": "21A",
+      "categoryLabel": "M21 Départementale Féminines -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-08",
+      "dateAffichee": "08/11",
+      "heure": "10:00",
+      "domicile": "Beaune",
+      "exterieur": "CJF Fleury",
+      "lieu": "CCB",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-02"
+    },
+    {
       "matchId": "3MC034",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -1097,6 +1177,21 @@
       "lieu": "GYMNASE GUY MOCQUET",
       "score": "POTAU MATHIEU / POTAU LEANNE",
       "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "ACCA001",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2026-11-08",
+      "dateAffichee": "08/11",
+      "heure": "15:00",
+      "domicile": "USM Montargis M21",
+      "exterieur": "CJF Fleury",
+      "lieu": "Château (Montargis)",
+      "score": null,
+      "statut": "a_venir",
       "weekStart": "2026-11-02"
     },
     {
@@ -1160,6 +1255,21 @@
       "weekStart": "2026-11-09"
     },
     {
+      "matchId": "CLD005",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-17",
+      "dateAffichee": "17/11",
+      "heure": "21:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "ASPTT Orléans 1",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
       "matchId": "18AA014",
       "categoryCode": "18A",
       "categoryLabel": "MOINS DE 18 FEMININES REGION POULE A",
@@ -1170,7 +1280,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ALERTE SPORTIVE MONTLOUIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "AUGER LE ROY EWAN /",
+      "score": "HALITI LEA / AUGER LE ROY EWAN",
       "statut": "joue",
       "weekStart": "2026-11-16"
     },
@@ -1215,6 +1325,51 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "NEUVILLE SPORTS",
       "lieu": "GYMNASE GUY MOCQUET",
+      "score": "AUGER LE ROY EWAN / HALITI LEA",
+      "statut": "joue",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "21A005",
+      "categoryCode": "21A",
+      "categoryLabel": "M21 Départementale Féminines -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-22",
+      "dateAffichee": "22/11",
+      "heure": "10:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "St Denis en Val",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "ACCA004",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2026-11-22",
+      "dateAffichee": "22/11",
+      "heure": "14:00",
+      "domicile": "SMOC M21",
+      "exterieur": "CJF Fleury",
+      "lieu": "Joriot",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "SFDA006",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2026-11-22",
+      "dateAffichee": "22/11",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "Neuville",
+      "lieu": "Guy Moquet",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-16"
@@ -1233,6 +1388,21 @@
       "score": "GENET LAPUJADE YANN / PREAU NICOLAS",
       "statut": "joue",
       "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "21A008",
+      "categoryCode": "21A",
+      "categoryLabel": "M21 Départementale Féminines -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-28",
+      "dateAffichee": "28/11",
+      "heure": "15:00",
+      "domicile": "ACVB 2",
+      "exterieur": "CJF Fleury",
+      "lieu": "Lièvre d'or",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-23"
     },
     {
       "matchId": "18AA019",
@@ -1263,6 +1433,21 @@
       "score": "DAUPHIN KILLIAN / CARRON STEPHANE",
       "statut": "joue",
       "weekStart": "2026-11-23"
+    },
+    {
+      "matchId": "CLD008",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-12-02",
+      "dateAffichee": "02/12",
+      "heure": "20:45",
+      "domicile": "USM Montargis 2",
+      "exterieur": "CJF Fleury",
+      "lieu": "Château Blanc (Villemandeur)",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-30"
     },
     {
       "matchId": "RFSA009",
@@ -1325,6 +1510,36 @@
       "weekStart": "2026-11-30"
     },
     {
+      "matchId": "21A012",
+      "categoryCode": "21A",
+      "categoryLabel": "M21 Départementale Féminines -Poule A",
+      "niveau": "DEP",
+      "date": "2026-12-06",
+      "dateAffichee": "06/12",
+      "heure": "10:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "ECO 1",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-30"
+    },
+    {
+      "matchId": "ACCA007",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2026-12-06",
+      "dateAffichee": "06/12",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "USM Montargis",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-30"
+    },
+    {
       "matchId": "3MC050",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -1338,6 +1553,21 @@
       "score": "MINNE RAPHAELLE / MOUZAIA ABDELMADJID",
       "statut": "joue",
       "weekStart": "2026-11-30"
+    },
+    {
+      "matchId": "CLD012",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-12-08",
+      "dateAffichee": "08/12",
+      "heure": "21:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "ACVB 2",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-12-07"
     },
     {
       "matchId": "18AA026",
@@ -1443,6 +1673,51 @@
       "score": "BEAUVIER ARNAUD / LANGELUS CHRISTINE",
       "statut": "joue",
       "weekStart": "2026-12-14"
+    },
+    {
+      "matchId": "SFDA012",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2027-01-04",
+      "dateAffichee": "04/01",
+      "heure": "20:30",
+      "domicile": "ECO",
+      "exterieur": "CJF Fleury",
+      "lieu": "Claude Robert",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-12-28"
+    },
+    {
+      "matchId": "SFDA012",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2027-01-04",
+      "dateAffichee": "04/01",
+      "heure": "20:30",
+      "domicile": "ECO",
+      "exterieur": "CJF Fleury",
+      "lieu": "Claude Robert",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-01-04"
+    },
+    {
+      "matchId": "ACCA010",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2027-01-10",
+      "dateAffichee": "10/01",
+      "heure": "10:00",
+      "domicile": "ECO M21",
+      "exterieur": "CJF Fleury",
+      "lieu": "Claude Robert",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-01-04"
     },
     {
       "matchId": "3MC061",
@@ -1565,6 +1840,36 @@
       "weekStart": "2027-01-18"
     },
     {
+      "matchId": "ACCA013",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2027-01-24",
+      "dateAffichee": "24/01",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "ACVB",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-01-18"
+    },
+    {
+      "matchId": "SFDA014",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2027-01-24",
+      "dateAffichee": "24/01",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "USO",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-01-18"
+    },
+    {
       "matchId": "18GR019",
       "categoryCode": "18G",
       "categoryLabel": "MOINS DE 18 MASCULIN REGION",
@@ -1653,6 +1958,51 @@
       "score": null,
       "statut": "a_venir",
       "weekStart": "2027-02-01"
+    },
+    {
+      "matchId": "ACCR016",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2027-02-07",
+      "dateAffichee": "07/02",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "USM Montargis M21",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-02-01"
+    },
+    {
+      "matchId": "SFDR017",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2027-02-07",
+      "dateAffichee": "07/02",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "SMOC",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-02-01"
+    },
+    {
+      "matchId": "SFDR021",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2027-02-11",
+      "dateAffichee": "11/02",
+      "heure": "21:00",
+      "domicile": "Neuville",
+      "exterieur": "CJF Fleury",
+      "lieu": "Pierre Perche",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-02-08"
     },
     {
       "matchId": "RFSA017",
@@ -1790,6 +2140,21 @@
       "weekStart": "2027-03-01"
     },
     {
+      "matchId": "ACCR019",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2027-03-14",
+      "dateAffichee": "14/03",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "SMOC M21",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-03-08"
+    },
+    {
       "matchId": "18GR025",
       "categoryCode": "18G",
       "categoryLabel": "MOINS DE 18 MASCULIN REGION",
@@ -1880,6 +2245,21 @@
       "weekStart": "2027-03-22"
     },
     {
+      "matchId": "SFDR027",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2027-03-28",
+      "dateAffichee": "28/03",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "ECO",
+      "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-03-22"
+    },
+    {
       "matchId": "3MC113",
       "categoryCode": "3MC",
       "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
@@ -1892,6 +2272,21 @@
       "lieu": "GYMNASE BARTHÉLÉMY 1",
       "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
       "statut": "joue",
+      "weekStart": "2027-03-22"
+    },
+    {
+      "matchId": "ACCR022",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2027-03-28",
+      "dateAffichee": "28/03",
+      "heure": "15:00",
+      "domicile": "USM Montargis",
+      "exterieur": "CJF Fleury",
+      "lieu": "Château (Montargis)",
+      "score": null,
+      "statut": "a_venir",
       "weekStart": "2027-03-22"
     },
     {
@@ -1940,6 +2335,21 @@
       "weekStart": "2027-03-29"
     },
     {
+      "matchId": "SFDR029",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2027-04-06",
+      "dateAffichee": "06/04",
+      "heure": "20:30",
+      "domicile": "USO",
+      "exterieur": "CJF Fleury",
+      "lieu": "Georges Landré",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-04-05"
+    },
+    {
       "matchId": "R1MR049",
       "categoryCode": "R1M",
       "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
@@ -1965,6 +2375,21 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "xxxxx",
       "lieu": null,
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-04-05"
+    },
+    {
+      "matchId": "ACCR025",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2027-04-11",
+      "dateAffichee": "11/04",
+      "heure": "14:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "ECO M21",
+      "lieu": "Guy Moquet",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2027-04-05"
@@ -2013,6 +2438,21 @@
       "score": "CENTRE-VAL DE LOIRE / CENTRE-VAL DE LOIRE",
       "statut": "joue",
       "weekStart": "2027-04-19"
+    },
+    {
+      "matchId": "ACCR028",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2027-05-15",
+      "dateAffichee": "15/05",
+      "heure": "20:30",
+      "domicile": "ACVB",
+      "exterieur": "CJF Fleury",
+      "lieu": "Lièvre d'or",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-05-10"
     }
   ],
   "weeks": [
@@ -2073,7 +2513,7 @@
     {
       "weekStart": "2026-10-19",
       "dateJour": 1791928800,
-      "matchCount": 1,
+      "matchCount": 3,
       "status": "ok"
     },
     {
@@ -2085,7 +2525,7 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 5,
+      "matchCount": 8,
       "status": "ok"
     },
     {
@@ -2097,25 +2537,25 @@
     {
       "weekStart": "2026-11-16",
       "dateJour": 1794351600,
-      "matchCount": 5,
+      "matchCount": 9,
       "status": "ok"
     },
     {
       "weekStart": "2026-11-23",
       "dateJour": 1794956400,
-      "matchCount": 2,
+      "matchCount": 3,
       "status": "ok"
     },
     {
       "weekStart": "2026-11-30",
       "dateJour": 1795561200,
-      "matchCount": 5,
+      "matchCount": 8,
       "status": "ok"
     },
     {
       "weekStart": "2026-12-07",
       "dateJour": 1796166000,
-      "matchCount": 5,
+      "matchCount": 6,
       "status": "ok"
     },
     {
@@ -2133,13 +2573,13 @@
     {
       "weekStart": "2026-12-28",
       "dateJour": 1797980400,
-      "matchCount": 0,
+      "matchCount": 1,
       "status": "ok"
     },
     {
       "weekStart": "2027-01-04",
       "dateJour": 1798585200,
-      "matchCount": 1,
+      "matchCount": 3,
       "status": "ok"
     },
     {
@@ -2151,7 +2591,7 @@
     {
       "weekStart": "2027-01-18",
       "dateJour": 1799794800,
-      "matchCount": 2,
+      "matchCount": 4,
       "status": "ok"
     },
     {
@@ -2163,13 +2603,13 @@
     {
       "weekStart": "2027-02-01",
       "dateJour": 1801004400,
-      "matchCount": 1,
+      "matchCount": 3,
       "status": "ok"
     },
     {
       "weekStart": "2027-02-08",
       "dateJour": 1801609200,
-      "matchCount": 4,
+      "matchCount": 5,
       "status": "ok"
     },
     {
@@ -2193,7 +2633,7 @@
     {
       "weekStart": "2027-03-08",
       "dateJour": 1804028400,
-      "matchCount": 0,
+      "matchCount": 1,
       "status": "ok"
     },
     {
@@ -2205,7 +2645,7 @@
     {
       "weekStart": "2027-03-22",
       "dateJour": 1805238000,
-      "matchCount": 3,
+      "matchCount": 5,
       "status": "ok"
     },
     {
@@ -2217,7 +2657,7 @@
     {
       "weekStart": "2027-04-05",
       "dateJour": 1806444000,
-      "matchCount": 2,
+      "matchCount": 4,
       "status": "ok"
     },
     {
@@ -2247,7 +2687,7 @@
     {
       "weekStart": "2027-05-10",
       "dateJour": 1809468000,
-      "matchCount": 0,
+      "matchCount": 1,
       "status": "ok"
     },
     {
