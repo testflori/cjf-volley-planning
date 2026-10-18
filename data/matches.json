@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-18T03:56:17.346Z",
+  "lastUpdated": "2026-10-18T08:46:23.316Z",
   "categories": [
     {
       "code": "18A",
@@ -1055,8 +1055,8 @@
       "domicile": "ALERTE SPORTIVE MONTLOUIS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "LEO LAGRANGE",
-      "score": null,
-      "statut": "a_venir",
+      "score": "LABBE FRANCK / TUFELE ALEXANDRE",
+      "statut": "joue",
       "weekStart": "2026-10-19"
     },
     {
