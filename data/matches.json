@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-18T13:52:22.547Z",
+  "lastUpdated": "2026-10-18T17:11:23.099Z",
   "categories": [
     {
       "code": "18A",
@@ -934,9 +934,39 @@
       "heure": null,
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "CLUB SPORTIF MENNECY",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "2",
+      "score": "18:25, 8:25 026:050 ARABA EMILE / DUCHAUSSOY EMILIE",
+      "statut": "joue",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "CFP006",
+      "categoryCode": "CFP",
+      "categoryLabel": "COUPE DE FRANCE M18 FEMININ POULE P",
+      "niveau": "JEU",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "CLUB SPORTIF MENNECY",
+      "lieu": "2",
+      "score": "18:25, 8:25 026:050 ARABA EMILE / DUCHAUSSOY EMILIE",
+      "statut": "joue",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "CFP006",
+      "categoryCode": "CFP",
+      "categoryLabel": "COUPE DE FRANCE M18 FEMININ POULE P",
+      "niveau": "JEU",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "CLUB SPORTIF MENNECY",
+      "lieu": "2",
+      "score": "18:25, 8:25 026:050 ARABA EMILE / DUCHAUSSOY EMILIE",
+      "statut": "joue",
       "weekStart": "2026-10-12"
     },
     {
@@ -1174,8 +1204,38 @@
       "heure": "15:00",
       "domicile": "VBC CHALON SUR SAONE 2",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "MAISON DES SPORTS",
-      "score": "BANOS SERGE / BOURGEOIS GILLES",
+      "lieu": "2",
+      "score": "25:18, 18:25, 23:25, 25:18, 15:9 106:095 BANOS SERGE / BOURGEOIS GILLES",
+      "statut": "joue",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "3MC008",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": "15:00",
+      "domicile": "VBC CHALON SUR SAONE 2",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "2",
+      "score": "25:18, 18:25, 23:25, 25:18, 15:9 106:095 BANOS SERGE / BOURGEOIS GILLES",
+      "statut": "joue",
+      "weekStart": "2026-10-12"
+    },
+    {
+      "matchId": "3MC008",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-10-18",
+      "dateAffichee": "18/10",
+      "heure": "15:00",
+      "domicile": "VBC CHALON SUR SAONE 2",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "2",
+      "score": "25:18, 18:25, 23:25, 25:18, 15:9 106:095 BANOS SERGE / BOURGEOIS GILLES",
       "statut": "joue",
       "weekStart": "2026-10-12"
     },
@@ -2657,7 +2717,7 @@
     {
       "weekStart": "2026-10-12",
       "dateJour": 1791324000,
-      "matchCount": 17,
+      "matchCount": 21,
       "status": "ok"
     },
     {
