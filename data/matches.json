@@ -4,8 +4,12 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-22T07:26:55.646Z",
+  "lastUpdated": "2026-10-22T13:39:09.023Z",
   "categories": [
+    {
+      "code": "15A",
+      "label": "Journée 1 - Poule A"
+    },
     {
       "code": "18A",
       "label": "MOINS DE 18 FEMININES REGION POULE A"
@@ -53,6 +57,14 @@
     {
       "code": "CX1",
       "label": "COUPE DE FRANCE M18 MASCULIN POULE 1"
+    },
+    {
+      "code": "J1B",
+      "label": "Journée 1 - Poule B"
+    },
+    {
+      "code": "J1C",
+      "label": "Journée 1 - Poule C"
     },
     {
       "code": "JX2",
@@ -1249,7 +1261,7 @@
       "heure": null,
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "SPORTING CLUB DE L OUEST",
-      "lieu": "LEO LAGRANGE",
+      "lieu": "COMPLEXE RAYMOND POULIDOR",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-10-19"
@@ -1264,7 +1276,7 @@
       "heure": "11:00",
       "domicile": "ALERTE SPORTIVE MONTLOUIS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "LEO LAGRANGE",
+      "lieu": "COMPLEXE RAYMOND POULIDOR",
       "score": "LABBE FRANCK / TUFELE LUKA",
       "statut": "joue",
       "weekStart": "2026-10-19"
@@ -1295,6 +1307,51 @@
       "domicile": "St Denis en Val",
       "exterieur": "CJF Fleury",
       "lieu": "Village sportif -Gymnase n°2",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "J1B002",
+      "categoryCode": "J1B",
+      "categoryLabel": "Journée 1 - Poule B",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "14:00",
+      "domicile": "CERCLE JULES FERRY FLEURY 1",
+      "exterieur": "U.S.ORLEANS VOLLEY-BALL 2",
+      "lieu": "SALLE GUY MOQUET (Terrain 2)",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "J1C001",
+      "categoryCode": "J1C",
+      "categoryLabel": "Journée 1 - Poule C",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "14:00",
+      "domicile": "CERCLE JULES FERRY FLEURY 2",
+      "exterieur": "AS.CASTELNEUVIENNE V.B. 2",
+      "lieu": "SALLE GUY MOQUET (Terrain 3)",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "J1C002",
+      "categoryCode": "J1C",
+      "categoryLabel": "Journée 1 - Poule C",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "15:00",
+      "domicile": "CERCLE JULES FERRY FLEURY 3",
+      "exterieur": "U.S.ORLEANS VOLLEY-BALL 1",
+      "lieu": "SALLE GUY MOQUET (Terrain 3)",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-02"
@@ -1403,6 +1460,21 @@
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "15A002",
+      "categoryCode": "15A",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "14:00",
+      "domicile": "AS.CASTELNEUVIENNE V.B. 1",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE JORIOT T2",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-09"
     },
     {
       "matchId": "18AA004",
@@ -2735,13 +2807,13 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 8,
+      "matchCount": 11,
       "status": "ok"
     },
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 4,
+      "matchCount": 5,
       "status": "ok"
     },
     {
