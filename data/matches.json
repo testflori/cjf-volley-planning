@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-25T13:05:35.445Z",
+  "lastUpdated": "2026-10-25T17:32:05.906Z",
   "categories": [
     {
       "code": "15A",
@@ -1261,9 +1261,39 @@
       "heure": null,
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "SPORTING CLUB DE L OUEST",
-      "lieu": "COMPLEXE RAYMOND POULIDOR",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "2",
+      "score": "19:25, 20:25 039:050 LABBE FRANCK / TUFELE LUKA",
+      "statut": "joue",
+      "weekStart": "2026-10-19"
+    },
+    {
+      "matchId": "NFE002",
+      "categoryCode": "NFE",
+      "categoryLabel": "CHALLENGE DE FRANCE M15 FEMININ POULE E",
+      "niveau": "JEU",
+      "date": "2026-10-25",
+      "dateAffichee": "25/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "SPORTING CLUB DE L OUEST",
+      "lieu": "2",
+      "score": "19:25, 20:25 039:050 LABBE FRANCK / TUFELE LUKA",
+      "statut": "joue",
+      "weekStart": "2026-10-19"
+    },
+    {
+      "matchId": "NFE002",
+      "categoryCode": "NFE",
+      "categoryLabel": "CHALLENGE DE FRANCE M15 FEMININ POULE E",
+      "niveau": "JEU",
+      "date": "2026-10-25",
+      "dateAffichee": "25/10",
+      "heure": null,
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "SPORTING CLUB DE L OUEST",
+      "lieu": "2",
+      "score": "19:25, 20:25 039:050 LABBE FRANCK / TUFELE LUKA",
+      "statut": "joue",
       "weekStart": "2026-10-19"
     },
     {
@@ -1321,8 +1351,38 @@
       "heure": "15:00",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ANTONY VOLLEY",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "DANAIS CLAUSSE MELISSA / LANGELUS CHRISTINE",
+      "lieu": "3",
+      "score": "18:25, 24:26, 21:25 063:076 DANAIS CLAUSSE MELISSA / LANGELUS CHRISTINE",
+      "statut": "joue",
+      "weekStart": "2026-10-19"
+    },
+    {
+      "matchId": "3MC021",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-10-25",
+      "dateAffichee": "25/10",
+      "heure": "15:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ANTONY VOLLEY",
+      "lieu": "3",
+      "score": "18:25, 24:26, 21:25 063:076 DANAIS CLAUSSE MELISSA / LANGELUS CHRISTINE",
+      "statut": "joue",
+      "weekStart": "2026-10-19"
+    },
+    {
+      "matchId": "3MC021",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-10-25",
+      "dateAffichee": "25/10",
+      "heure": "15:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ANTONY VOLLEY",
+      "lieu": "3",
+      "score": "18:25, 24:26, 21:25 063:076 DANAIS CLAUSSE MELISSA / LANGELUS CHRISTINE",
       "statut": "joue",
       "weekStart": "2026-10-19"
     },
@@ -2825,7 +2885,7 @@
     {
       "weekStart": "2026-10-19",
       "dateJour": 1791928800,
-      "matchCount": 5,
+      "matchCount": 9,
       "status": "ok"
     },
     {
