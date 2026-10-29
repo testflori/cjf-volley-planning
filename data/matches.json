@@ -4,11 +4,11 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-29T12:39:25.896Z",
+  "lastUpdated": "2026-10-29T19:28:52.750Z",
   "categories": [
     {
-      "code": "15A",
-      "label": "Journée 1 - Poule A"
+      "code": "15C",
+      "label": "Journée 1 - Poule C"
     },
     {
       "code": "18A",
@@ -1560,16 +1560,31 @@
       "weekStart": "2026-11-02"
     },
     {
-      "matchId": "15A002",
-      "categoryCode": "15A",
-      "categoryLabel": "Journée 1 - Poule A",
+      "matchId": "15C001",
+      "categoryCode": "15C",
+      "categoryLabel": "Journée 1 - Poule C",
       "niveau": "DEP",
       "date": "2026-11-14",
       "dateAffichee": "14/11",
       "heure": "14:00",
-      "domicile": "AS.CASTELNEUVIENNE V.B. 1",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE JORIOT T2",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "U.S.ORLEANS VOLLEY-BALL",
+      "lieu": "GYMNASE JORIOT T3",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "15C003",
+      "categoryCode": "15C",
+      "categoryLabel": "Journée 1 - Poule C",
+      "niveau": "DEP",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "16:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "U.S.M. ST-DENIS EN VAL",
+      "lieu": "GYMNASE JORIOT T3",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-09"
@@ -1660,8 +1675,8 @@
       "domicile": "LOCHES VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE ROUSIER 1",
-      "score": null,
-      "statut": "a_venir",
+      "score": "TUFELE ALEXANDRE / MORIN JEANNE",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -2971,7 +2986,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 9,
+      "matchCount": 10,
       "status": "ok"
     },
     {
