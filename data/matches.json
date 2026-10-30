@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-10-30T12:30:59.214Z",
+  "lastUpdated": "2026-10-30T19:05:02.926Z",
   "categories": [
     {
       "code": "15C",
@@ -13,6 +13,10 @@
     {
       "code": "18A",
       "label": "MOINS DE 18 FEMININES REGION POULE A"
+    },
+    {
+      "code": "18C",
+      "label": "Journée 1 - Poule A"
     },
     {
       "code": "18G",
@@ -1410,6 +1414,21 @@
       "weekStart": "2026-11-02"
     },
     {
+      "matchId": "18C003",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "14:00",
+      "domicile": "SMOC ST-JEAN DE BRAYE",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "COMPLEXE SPORTIF",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-02"
+    },
+    {
       "matchId": "J1B002",
       "categoryCode": "J1B",
       "categoryLabel": "Journée 1 - Poule B",
@@ -1435,6 +1454,21 @@
       "domicile": "CERCLE JULES FERRY FLEURY 2",
       "exterieur": "AS.CASTELNEUVIENNE V.B. 2",
       "lieu": "SALLE GUY MOQUET (Terrain 3)",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "18C006",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "15:00",
+      "domicile": "GIEN VOLLEY 2",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "COMPLEXE SPORTIF",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-02"
@@ -1720,6 +1754,51 @@
       "domicile": "CJF Fleury",
       "exterieur": "ASPTT Orléans 1",
       "lieu": "Guy Moquet",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "18C009",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-21",
+      "dateAffichee": "21/11",
+      "heure": "14:00",
+      "domicile": "USM MONTARGIS V.B. 1",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "CLAUDE ROBERT",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "18C0012",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-21",
+      "dateAffichee": "21/11",
+      "heure": "15:00",
+      "domicile": "USM MONTARGIS V.B. 2",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "CLAUDE ROBERT",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "18C013",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-21",
+      "dateAffichee": "21/11",
+      "heure": "16:00",
+      "domicile": "GIEN VOLLEY 1",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "CLAUDE ROBERT",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-16"
@@ -2980,7 +3059,7 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 11,
+      "matchCount": 13,
       "status": "ok"
     },
     {
@@ -2992,7 +3071,7 @@
     {
       "weekStart": "2026-11-16",
       "dateJour": 1794351600,
-      "matchCount": 9,
+      "matchCount": 12,
       "status": "ok"
     },
     {
