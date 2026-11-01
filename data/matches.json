@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-01T08:57:23.653Z",
+  "lastUpdated": "2026-11-01T16:41:21.306Z",
   "categories": [
     {
       "code": "15C",
@@ -1423,7 +1423,7 @@
       "heure": "14:00",
       "domicile": "SMOC ST-JEAN DE BRAYE",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "COMPLEXE SPORTIF",
+      "lieu": "GYMNASE DU CHÂTEAU D'EAU",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-02"
@@ -1468,7 +1468,7 @@
       "heure": "15:00",
       "domicile": "GIEN VOLLEY 2",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "COMPLEXE SPORTIF",
+      "lieu": "GYMNASE DU CHÂTEAU D'EAU",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-02"
@@ -1724,8 +1724,8 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "AS NOGENTAISE DE VOLLEY-BALL",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
+      "score": "BEAUVIER ARNAUD / DUCHAUSSOY EMILIE",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -1768,7 +1768,7 @@
       "heure": "14:00",
       "domicile": "USM MONTARGIS V.B. 1",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "CLAUDE ROBERT",
+      "lieu": "JEAN PARBAUD",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-16"
@@ -1783,7 +1783,7 @@
       "heure": "15:00",
       "domicile": "USM MONTARGIS V.B. 2",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "CLAUDE ROBERT",
+      "lieu": "JEAN PARBAUD",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-16"
@@ -1798,7 +1798,7 @@
       "heure": "16:00",
       "domicile": "GIEN VOLLEY 1",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "CLAUDE ROBERT",
+      "lieu": "JEAN PARBAUD",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-16"
