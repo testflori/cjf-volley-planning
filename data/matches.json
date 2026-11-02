@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-02T09:08:56.764Z",
+  "lastUpdated": "2026-11-02T20:08:17.017Z",
   "categories": [
     {
       "code": "15C",
@@ -1399,18 +1399,33 @@
       "weekStart": "2026-10-19"
     },
     {
-      "matchId": "CLD003",
-      "categoryCode": "CLD",
-      "categoryLabel": "Competlib' débutant -Poule A",
+      "matchId": "SFDA002",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
       "niveau": "DEP",
-      "date": "2026-11-06",
-      "dateAffichee": "06/11",
-      "heure": "21:15",
-      "domicile": "St Denis en Val",
+      "date": "2026-11-02",
+      "dateAffichee": "02/11",
+      "heure": "21:00",
+      "domicile": "SMOC",
       "exterieur": "CJF Fleury",
-      "lieu": "Village sportif -Gymnase n°2",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "Joriot",
+      "score": "SQUIVEE AMELIE / HURST THIERRY",
+      "statut": "joue",
+      "weekStart": "2026-10-26"
+    },
+    {
+      "matchId": "SFDA002",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2026-11-02",
+      "dateAffichee": "02/11",
+      "heure": "21:00",
+      "domicile": "SMOC",
+      "exterieur": "CJF Fleury",
+      "lieu": "Joriot",
+      "score": "SQUIVEE AMELIE / HURST THIERRY",
+      "statut": "joue",
       "weekStart": "2026-11-02"
     },
     {
@@ -1592,6 +1607,21 @@
       "score": "LUCET AURELIE /",
       "statut": "joue",
       "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "CLD003",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-13",
+      "dateAffichee": "13/11",
+      "heure": "21:15",
+      "domicile": "St Denis en Val",
+      "exterieur": "CJF Fleury",
+      "lieu": "VILLAGE SPORTIF (GYMNASE 2)",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-09"
     },
     {
       "matchId": "15C001",
@@ -3053,7 +3083,7 @@
     {
       "weekStart": "2026-10-26",
       "dateJour": 1792533600,
-      "matchCount": 0,
+      "matchCount": 1,
       "status": "ok"
     },
     {
@@ -3065,7 +3095,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 10,
+      "matchCount": 11,
       "status": "ok"
     },
     {
