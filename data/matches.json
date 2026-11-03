@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-02T20:08:17.017Z",
+  "lastUpdated": "2026-11-03T03:23:44.997Z",
   "categories": [
     {
       "code": "15C",
@@ -1408,8 +1408,8 @@
       "heure": "21:00",
       "domicile": "SMOC",
       "exterieur": "CJF Fleury",
-      "lieu": "Joriot",
-      "score": "SQUIVEE AMELIE / HURST THIERRY",
+      "lieu": "0",
+      "score": "25:17, 25:15, 25:16 075:048 SQUIVEE AMELIE / HURST THIERRY",
       "statut": "joue",
       "weekStart": "2026-10-26"
     },
@@ -1423,8 +1423,68 @@
       "heure": "21:00",
       "domicile": "SMOC",
       "exterieur": "CJF Fleury",
-      "lieu": "Joriot",
-      "score": "SQUIVEE AMELIE / HURST THIERRY",
+      "lieu": "0",
+      "score": "25:17, 25:15, 25:16 075:048 SQUIVEE AMELIE / HURST THIERRY",
+      "statut": "joue",
+      "weekStart": "2026-10-26"
+    },
+    {
+      "matchId": "SFDA002",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2026-11-02",
+      "dateAffichee": "02/11",
+      "heure": "21:00",
+      "domicile": "SMOC",
+      "exterieur": "CJF Fleury",
+      "lieu": "0",
+      "score": "25:17, 25:15, 25:16 075:048 SQUIVEE AMELIE / HURST THIERRY",
+      "statut": "joue",
+      "weekStart": "2026-10-26"
+    },
+    {
+      "matchId": "SFDA002",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2026-11-02",
+      "dateAffichee": "02/11",
+      "heure": "21:00",
+      "domicile": "SMOC",
+      "exterieur": "CJF Fleury",
+      "lieu": "0",
+      "score": "25:17, 25:15, 25:16 075:048 SQUIVEE AMELIE / HURST THIERRY",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "SFDA002",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2026-11-02",
+      "dateAffichee": "02/11",
+      "heure": "21:00",
+      "domicile": "SMOC",
+      "exterieur": "CJF Fleury",
+      "lieu": "0",
+      "score": "25:17, 25:15, 25:16 075:048 SQUIVEE AMELIE / HURST THIERRY",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "SFDA002",
+      "categoryCode": "SFD",
+      "categoryLabel": "Seniors Féminines Départementales",
+      "niveau": "DEP",
+      "date": "2026-11-02",
+      "dateAffichee": "02/11",
+      "heure": "21:00",
+      "domicile": "SMOC",
+      "exterieur": "CJF Fleury",
+      "lieu": "0",
+      "score": "25:17, 25:15, 25:16 075:048 SQUIVEE AMELIE / HURST THIERRY",
       "statut": "joue",
       "weekStart": "2026-11-02"
     },
@@ -3083,13 +3143,13 @@
     {
       "weekStart": "2026-10-26",
       "dateJour": 1792533600,
-      "matchCount": 1,
+      "matchCount": 3,
       "status": "ok"
     },
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 13,
+      "matchCount": 15,
       "status": "ok"
     },
     {
