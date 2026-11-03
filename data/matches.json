@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-03T03:23:44.997Z",
+  "lastUpdated": "2026-11-03T11:45:32.075Z",
   "categories": [
     {
       "code": "15C",
@@ -1654,21 +1654,6 @@
       "weekStart": "2026-11-02"
     },
     {
-      "matchId": "ACCA001",
-      "categoryCode": "ACC",
-      "categoryLabel": "Seniors Masculins Départementaux -Access'",
-      "niveau": "DEP",
-      "date": "2026-11-08",
-      "dateAffichee": "08/11",
-      "heure": "15:00",
-      "domicile": "USM Montargis M21",
-      "exterieur": "CJF Fleury",
-      "lieu": "Château (Montargis)",
-      "score": "LUCET AURELIE /",
-      "statut": "joue",
-      "weekStart": "2026-11-02"
-    },
-    {
       "matchId": "CLD003",
       "categoryCode": "CLD",
       "categoryLabel": "Competlib' débutant -Poule A",
@@ -1786,6 +1771,21 @@
       "lieu": "GYMNASE GUY MOCQUET",
       "score": null,
       "statut": "a_venir",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "ACCA001",
+      "categoryCode": "ACC",
+      "categoryLabel": "Seniors Masculins Départementaux -Access'",
+      "niveau": "DEP",
+      "date": "2026-11-15",
+      "dateAffichee": "15/11",
+      "heure": "10:30",
+      "domicile": "USM Montargis M21",
+      "exterieur": "CJF Fleury",
+      "lieu": "GYMNASE DU CHÂTEAU D'EAU",
+      "score": "LUCET AURELIE /",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -3149,13 +3149,13 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 15,
+      "matchCount": 14,
       "status": "ok"
     },
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 11,
+      "matchCount": 12,
       "status": "ok"
     },
     {
