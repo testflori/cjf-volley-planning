@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-05T14:30:34.245Z",
+  "lastUpdated": "2026-11-05T21:51:41.038Z",
   "categories": [
     {
       "code": "15C",
@@ -1589,7 +1589,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ALERTE SPORTIVE MONTLOUIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "DUCHAUSSOY EMILIE / PERCEVIC DRAGAN",
+      "score": "DUCHAUSSOY EMILIE /",
       "statut": "joue",
       "weekStart": "2026-11-02"
     },
@@ -1604,7 +1604,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ALERTE SPORTIVE MONTLOUIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "PERCEVIC DRAGAN / DUCHAUSSOY EMILIE",
+      "score": "DUCHAUSSOY EMILIE /",
       "statut": "joue",
       "weekStart": "2026-11-02"
     },
