@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-05T05:59:11.700Z",
+  "lastUpdated": "2026-11-05T14:30:34.245Z",
   "categories": [
     {
       "code": "15C",
@@ -2524,21 +2524,6 @@
       "weekStart": "2027-01-25"
     },
     {
-      "matchId": "R2MR030",
-      "categoryCode": "R2M",
-      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
-      "niveau": "REG",
-      "date": "2027-01-30",
-      "dateAffichee": "30/01",
-      "heure": "20:30",
-      "domicile": "CERCLE JULES FERRY FLEURY",
-      "exterieur": "VOLLEY BALL CLUB BALGENTIEN",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": null,
-      "statut": "a_venir",
-      "weekStart": "2027-01-25"
-    },
-    {
       "matchId": "RFSA057",
       "categoryCode": "RFS",
       "categoryLabel": "REGIONALE FEMININE SENIOR",
@@ -2567,6 +2552,21 @@
       "score": "POTAU MATHIEU / QUINGUE SAMUEL",
       "statut": "joue",
       "weekStart": "2027-01-25"
+    },
+    {
+      "matchId": "R2MR030",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2027-02-06",
+      "dateAffichee": "06/02",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "VOLLEY BALL CLUB BALGENTIEN",
+      "lieu": "GYMNASE GUY MOCQUET",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2027-02-01"
     },
     {
       "matchId": "RFSA064",
@@ -3221,13 +3221,13 @@
     {
       "weekStart": "2027-01-25",
       "dateJour": 1800399600,
-      "matchCount": 5,
+      "matchCount": 4,
       "status": "ok"
     },
     {
       "weekStart": "2027-02-01",
       "dateJour": 1801004400,
-      "matchCount": 3,
+      "matchCount": 4,
       "status": "ok"
     },
     {
