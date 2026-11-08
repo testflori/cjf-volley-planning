@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-07T21:39:18.128Z",
+  "lastUpdated": "2026-11-08T01:13:45.364Z",
   "categories": [
     {
       "code": "15C",
@@ -1663,8 +1663,38 @@
       "heure": "20:30",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ALERTE SPORTIVE MONTLOUIS",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "DUCHAUSSOY EMILIE /",
+      "lieu": "1",
+      "score": "19:25, 25:21, 25:21, 25:23 094:090 ARABA EMILE /",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "R1MA011",
+      "categoryCode": "R1M",
+      "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ALERTE SPORTIVE MONTLOUIS",
+      "lieu": "1",
+      "score": "19:25, 25:21, 25:21, 25:23 094:090 ARABA EMILE /",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "R1MA011",
+      "categoryCode": "R1M",
+      "categoryLabel": "REGIONALE 1 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "ALERTE SPORTIVE MONTLOUIS",
+      "lieu": "1",
+      "score": "19:25, 25:21, 25:21, 25:23 094:090 ARABA EMILE /",
       "statut": "joue",
       "weekStart": "2026-11-02"
     },
@@ -3239,7 +3269,7 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 20,
+      "matchCount": 22,
       "status": "ok"
     },
     {
