@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-08T08:47:48.628Z",
+  "lastUpdated": "2026-11-08T16:34:22.774Z",
   "categories": [
     {
       "code": "15C",
@@ -1753,9 +1753,39 @@
       "heure": "10:00",
       "domicile": "Beaune",
       "exterieur": "CJF Fleury",
-      "lieu": "CCB",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "0",
+      "score": "25:4, 25:12, 25:8 075:024 DAVID NICOLAS /",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "21A003",
+      "categoryCode": "21A",
+      "categoryLabel": "M21 Départementale Féminines -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-08",
+      "dateAffichee": "08/11",
+      "heure": "10:00",
+      "domicile": "Beaune",
+      "exterieur": "CJF Fleury",
+      "lieu": "0",
+      "score": "25:4, 25:12, 25:8 075:024 DAVID NICOLAS /",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "21A003",
+      "categoryCode": "21A",
+      "categoryLabel": "M21 Départementale Féminines -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-08",
+      "dateAffichee": "08/11",
+      "heure": "10:00",
+      "domicile": "Beaune",
+      "exterieur": "CJF Fleury",
+      "lieu": "0",
+      "score": "25:4, 25:12, 25:8 075:024 DAVID NICOLAS /",
+      "statut": "joue",
       "weekStart": "2026-11-02"
     },
     {
@@ -1768,8 +1798,38 @@
       "heure": "15:00",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "UNION SPORTIVE DE VILLEJUIF",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "POTAU MATHIEU / POTAU LEANNE",
+      "lieu": "3",
+      "score": "18:25, 17:25, 22:25 057:075 POTAU MATHIEU / POTAU LEANNE",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "3MC034",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-11-08",
+      "dateAffichee": "08/11",
+      "heure": "15:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "UNION SPORTIVE DE VILLEJUIF",
+      "lieu": "3",
+      "score": "18:25, 17:25, 22:25 057:075 POTAU MATHIEU / POTAU LEANNE",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "3MC034",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-11-08",
+      "dateAffichee": "08/11",
+      "heure": "15:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "UNION SPORTIVE DE VILLEJUIF",
+      "lieu": "3",
+      "score": "18:25, 17:25, 22:25 057:075 POTAU MATHIEU / POTAU LEANNE",
       "statut": "joue",
       "weekStart": "2026-11-02"
     },
@@ -3269,7 +3329,7 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 22,
+      "matchCount": 26,
       "status": "ok"
     },
     {
