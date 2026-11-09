@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-09T09:28:12.135Z",
+  "lastUpdated": "2026-11-09T20:33:30.739Z",
   "categories": [
     {
       "code": "15C",
@@ -1933,7 +1933,7 @@
       "heure": null,
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "RUEIL ATHLETIC CLUB",
-      "lieu": "GYMNASE ROUSIER 1",
+      "lieu": "GYMNASE BESCHON",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-09"
@@ -1954,6 +1954,21 @@
       "weekStart": "2026-11-09"
     },
     {
+      "matchId": "RFG004",
+      "categoryCode": "RFG",
+      "categoryLabel": "CHALLENGE DE FRANCE M18 FEMININ POULE G",
+      "niveau": "JEU",
+      "date": "2026-11-15",
+      "dateAffichee": "15/11",
+      "heure": "10:00",
+      "domicile": "LOCHES VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "GYMNASE BESCHON",
+      "score": "TUFELE ALEXANDRE / MORIN JEANNE",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
       "matchId": "ACCA001",
       "categoryCode": "ACC",
       "categoryLabel": "Seniors Masculins Départementaux -Access'",
@@ -1965,21 +1980,6 @@
       "exterieur": "CJF Fleury",
       "lieu": "GYMNASE DU CHÂTEAU D'EAU",
       "score": "LUCET AURELIE /",
-      "statut": "joue",
-      "weekStart": "2026-11-09"
-    },
-    {
-      "matchId": "RFG004",
-      "categoryCode": "RFG",
-      "categoryLabel": "CHALLENGE DE FRANCE M18 FEMININ POULE G",
-      "niveau": "JEU",
-      "date": "2026-11-15",
-      "dateAffichee": "15/11",
-      "heure": "11:00",
-      "domicile": "LOCHES VOLLEY-BALL",
-      "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE ROUSIER 1",
-      "score": "TUFELE ALEXANDRE / MORIN JEANNE",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -2084,7 +2084,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "ALERTE SPORTIVE MONTLOUIS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "HALITI LEA / AUGER LE ROY EWAN",
+      "score": "AUGER LE ROY EWAN /",
       "statut": "joue",
       "weekStart": "2026-11-16"
     },
@@ -2129,7 +2129,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "NEUVILLE SPORTS",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "AUGER LE ROY EWAN / HALITI LEA",
+      "score": "AUGER LE ROY EWAN /",
       "statut": "joue",
       "weekStart": "2026-11-16"
     },
