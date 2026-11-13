@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-13T17:36:03.058Z",
+  "lastUpdated": "2026-11-13T23:25:27.522Z",
   "categories": [
     {
       "code": "15C",
@@ -2068,9 +2068,39 @@
       "heure": "21:15",
       "domicile": "St Denis en Val",
       "exterieur": "CJF Fleury",
-      "lieu": "VILLAGE SPORTIF (GYMNASE 2)",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "3",
+      "score": "21:25, 23:25, 25:14, 20:25 089:089",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "CLD003",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-13",
+      "dateAffichee": "13/11",
+      "heure": "21:15",
+      "domicile": "St Denis en Val",
+      "exterieur": "CJF Fleury",
+      "lieu": "3",
+      "score": "21:25, 23:25, 25:14, 20:25 089:089",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "CLD003",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-13",
+      "dateAffichee": "13/11",
+      "heure": "21:15",
+      "domicile": "St Denis en Val",
+      "exterieur": "CJF Fleury",
+      "lieu": "3",
+      "score": "21:25, 23:25, 25:14, 20:25 089:089",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -3560,7 +3590,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 12,
+      "matchCount": 14,
       "status": "ok"
     },
     {
