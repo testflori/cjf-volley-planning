@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-14T13:16:20.887Z",
+  "lastUpdated": "2026-11-14T18:59:44.085Z",
   "categories": [
     {
       "code": "15C",
@@ -2143,8 +2143,38 @@
       "heure": "18:00",
       "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE CAMILLE DANGUILLAUME",
-      "score": "BODIN BAPTISTE / PERCEVIC DRAGAN",
+      "lieu": "0",
+      "score": "25:16, 25:18, 25:17 075:051 BODIN BAPTISTE / PERCEVIC DRAGAN",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "18AA004",
+      "categoryCode": "18A",
+      "categoryLabel": "MOINS DE 18 FEMININES REGION POULE A",
+      "niveau": "REG",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "18:00",
+      "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:16, 25:18, 25:17 075:051 BODIN BAPTISTE / PERCEVIC DRAGAN",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "18AA004",
+      "categoryCode": "18A",
+      "categoryLabel": "MOINS DE 18 FEMININES REGION POULE A",
+      "niveau": "REG",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "18:00",
+      "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:16, 25:18, 25:17 075:051 BODIN BAPTISTE / PERCEVIC DRAGAN",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -2264,7 +2294,7 @@
       "domicile": "PORTES DE L'ESSONNE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "GYMNASE KENNEDY",
-      "score": "ZIANE NOUR-EDDINE / ESCUDIE MICHAEL",
+      "score": "ESCUDIE MICHAEL / ZIANE NOUR-EDDINE",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -3590,7 +3620,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 14,
+      "matchCount": 16,
       "status": "ok"
     },
     {
