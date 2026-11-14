@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-14T18:59:44.085Z",
+  "lastUpdated": "2026-11-14T23:46:24.439Z",
   "categories": [
     {
       "code": "15C",
@@ -2188,8 +2188,38 @@
       "heure": "20:30",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "AS NOGENTAISE DE VOLLEY-BALL",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
+      "lieu": "3",
+      "score": "20:25, 18:25, 23:25 061:075 BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "R2MA007",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "AS NOGENTAISE DE VOLLEY-BALL",
+      "lieu": "3",
+      "score": "20:25, 18:25, 23:25 061:075 BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "R2MA007",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "AS NOGENTAISE DE VOLLEY-BALL",
+      "lieu": "3",
+      "score": "20:25, 18:25, 23:25 061:075 BEAUVIER ARNAUD / BEZY MARY-EMMANUEL",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -2203,8 +2233,38 @@
       "heure": "20:30",
       "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE CAMILLE DANGUILLAUME",
-      "score": "PERCEVIC DRAGAN / BODIN BAPTISTE",
+      "lieu": "0",
+      "score": "25:12, 25:16, 25:20 075:048 PERCEVIC DRAGAN / BODIN BAPTISTE",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "RFSA030",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "20:30",
+      "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:12, 25:16, 25:20 075:048 PERCEVIC DRAGAN / BODIN BAPTISTE",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "RFSA030",
+      "categoryCode": "RFS",
+      "categoryLabel": "REGIONALE FEMININE SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "20:30",
+      "domicile": "UNION SPORTIVE CHAMBRAY LES TOURS",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:12, 25:16, 25:20 075:048 PERCEVIC DRAGAN / BODIN BAPTISTE",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -3620,7 +3680,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 16,
+      "matchCount": 20,
       "status": "ok"
     },
     {
