@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-15T13:45:17.847Z",
+  "lastUpdated": "2026-11-15T19:39:22.127Z",
   "categories": [
     {
       "code": "15C",
@@ -2503,8 +2503,38 @@
       "heure": "14:00",
       "domicile": "PORTES DE L'ESSONNE VOLLEY-BALL",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE KENNEDY",
-      "score": "ESCUDIE MICHAEL / ZIANE NOUR-EDDINE",
+      "lieu": "0",
+      "score": "25:23, 25:19, 25:20 075:062 ESCUDIE MICHAEL / ZIANE NOUR-EDDINE",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "3MC028",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-11-15",
+      "dateAffichee": "15/11",
+      "heure": "14:00",
+      "domicile": "PORTES DE L'ESSONNE VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:23, 25:19, 25:20 075:062 ESCUDIE MICHAEL / ZIANE NOUR-EDDINE",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "3MC028",
+      "categoryCode": "3MC",
+      "categoryLabel": "NATIONALE 3 MASCULINE POULE C",
+      "niveau": "NAT",
+      "date": "2026-11-15",
+      "dateAffichee": "15/11",
+      "heure": "14:00",
+      "domicile": "PORTES DE L'ESSONNE VOLLEY-BALL",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:23, 25:19, 25:20 075:062 ESCUDIE MICHAEL / ZIANE NOUR-EDDINE",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -3830,7 +3860,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 30,
+      "matchCount": 32,
       "status": "ok"
     },
     {
