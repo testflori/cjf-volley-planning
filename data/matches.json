@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-16T05:47:01.344Z",
+  "lastUpdated": "2026-11-16T15:21:37.411Z",
   "categories": [
     {
       "code": "15C",
@@ -69,6 +69,14 @@
     {
       "code": "J1C",
       "label": "M13 - Journée 1 - Poule C"
+    },
+    {
+      "code": "J2B",
+      "label": "M13 - Journée 2 - Poule B"
+    },
+    {
+      "code": "J2C",
+      "label": "M13 - Journée 2 - Poule C"
     },
     {
       "code": "JX2",
@@ -2569,6 +2577,36 @@
       "weekStart": "2026-11-16"
     },
     {
+      "matchId": "J2B002",
+      "categoryCode": "J2B",
+      "categoryLabel": "M13 - Journée 2 - Poule B",
+      "niveau": "DEP",
+      "date": "2026-11-21",
+      "dateAffichee": "21/11",
+      "heure": "14:00",
+      "domicile": "CERCLE JULES FERRY FLEURY 1",
+      "exterieur": "CERCLE JULES FERRY FLEURY 2",
+      "lieu": "BARTHELEMY T2",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "J2B002",
+      "categoryCode": "J2B",
+      "categoryLabel": "M13 - Journée 2 - Poule B",
+      "niveau": "DEP",
+      "date": "2026-11-21",
+      "dateAffichee": "21/11",
+      "heure": "14:00",
+      "domicile": "CERCLE JULES FERRY FLEURY 1",
+      "exterieur": "CERCLE JULES FERRY FLEURY 2",
+      "lieu": "BARTHELEMY T2",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
       "matchId": "18C0012",
       "categoryCode": "18C",
       "categoryLabel": "Journée 1 - Poule A",
@@ -2579,6 +2617,21 @@
       "domicile": "USM MONTARGIS V.B. 2",
       "exterieur": "CERCLE JULES FERRY FLEURY",
       "lieu": "JEAN PARBAUD",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "J2C002",
+      "categoryCode": "J2C",
+      "categoryLabel": "M13 - Journée 2 - Poule C",
+      "niveau": "DEP",
+      "date": "2026-11-21",
+      "dateAffichee": "21/11",
+      "heure": "15:00",
+      "domicile": "U.S.ORLEANS VOLLEY-BALL 2",
+      "exterieur": "CERCLE JULES FERRY FLEURY 3",
+      "lieu": "BARTHELEMY T3",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-16"
@@ -3866,7 +3919,7 @@
     {
       "weekStart": "2026-11-16",
       "dateJour": 1794351600,
-      "matchCount": 12,
+      "matchCount": 15,
       "status": "ok"
     },
     {
