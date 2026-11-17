@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-16T15:21:37.411Z",
+  "lastUpdated": "2026-11-17T00:05:53.631Z",
   "categories": [
     {
       "code": "15C",
@@ -1506,9 +1506,39 @@
       "heure": "14:00",
       "domicile": "SMOC ST-JEAN DE BRAYE",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE JORIOT",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "0",
+      "score": "25:17, 25:21 050:038",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "18C003",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "14:00",
+      "domicile": "SMOC ST-JEAN DE BRAYE",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:17, 25:21 050:038",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "18C003",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "14:00",
+      "domicile": "SMOC ST-JEAN DE BRAYE",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "0",
+      "score": "25:17, 25:21 050:038",
+      "statut": "joue",
       "weekStart": "2026-11-02"
     },
     {
@@ -1611,9 +1641,39 @@
       "heure": "15:00",
       "domicile": "GIEN VOLLEY 2",
       "exterieur": "CERCLE JULES FERRY FLEURY",
-      "lieu": "GYMNASE JORIOT",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "1",
+      "score": "25:12, 17:25, 15:9 057:046",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "18C006",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "15:00",
+      "domicile": "GIEN VOLLEY 2",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "1",
+      "score": "25:12, 17:25, 15:9 057:046",
+      "statut": "joue",
+      "weekStart": "2026-11-02"
+    },
+    {
+      "matchId": "18C006",
+      "categoryCode": "18C",
+      "categoryLabel": "Journée 1 - Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-07",
+      "dateAffichee": "07/11",
+      "heure": "15:00",
+      "domicile": "GIEN VOLLEY 2",
+      "exterieur": "CERCLE JULES FERRY FLEURY",
+      "lieu": "1",
+      "score": "25:12, 17:25, 15:9 057:046",
+      "statut": "joue",
       "weekStart": "2026-11-02"
     },
     {
@@ -2076,8 +2136,8 @@
       "heure": "21:15",
       "domicile": "St Denis en Val",
       "exterieur": "CJF Fleury",
-      "lieu": "3",
-      "score": "21:25, 23:25, 25:14, 20:25 089:089",
+      "lieu": "P",
+      "score": "25:0, 25:0, 25:0 075:000",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -2091,8 +2151,8 @@
       "heure": "21:15",
       "domicile": "St Denis en Val",
       "exterieur": "CJF Fleury",
-      "lieu": "3",
-      "score": "21:25, 23:25, 25:14, 20:25 089:089",
+      "lieu": "P",
+      "score": "25:0, 25:0, 25:0 075:000",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -2106,8 +2166,8 @@
       "heure": "21:15",
       "domicile": "St Denis en Val",
       "exterieur": "CJF Fleury",
-      "lieu": "3",
-      "score": "21:25, 23:25, 25:14, 20:25 089:089",
+      "lieu": "P",
+      "score": "25:0, 25:0, 25:0 075:000",
       "statut": "joue",
       "weekStart": "2026-11-09"
     },
@@ -2778,10 +2838,10 @@
       "niveau": "DEP",
       "date": "2026-11-28",
       "dateAffichee": "28/11",
-      "heure": "15:00",
+      "heure": "17:30",
       "domicile": "ACVB 2",
       "exterieur": "CJF Fleury",
-      "lieu": "Lièvre d'or",
+      "lieu": "GYMNASE DU LIEVRE D'OR",
       "score": null,
       "statut": "a_venir",
       "weekStart": "2026-11-23"
@@ -3907,7 +3967,7 @@
     {
       "weekStart": "2026-11-02",
       "dateJour": 1793142000,
-      "matchCount": 41,
+      "matchCount": 45,
       "status": "ok"
     },
     {
