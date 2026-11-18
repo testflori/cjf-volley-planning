@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-18T12:50:35.729Z",
+  "lastUpdated": "2026-11-18T21:45:35.398Z",
   "categories": [
     {
       "code": "15C",
@@ -2181,9 +2181,39 @@
       "heure": "14:00",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "U.S.ORLEANS VOLLEY-BALL",
-      "lieu": "GYMNASE JORIOT T3",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "2",
+      "score": "23:25, 20:25 043:050",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "15C001",
+      "categoryCode": "15C",
+      "categoryLabel": "Journée 1 - Poule C",
+      "niveau": "DEP",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "14:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "U.S.ORLEANS VOLLEY-BALL",
+      "lieu": "2",
+      "score": "23:25, 20:25 043:050",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "15C001",
+      "categoryCode": "15C",
+      "categoryLabel": "Journée 1 - Poule C",
+      "niveau": "DEP",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "14:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "U.S.ORLEANS VOLLEY-BALL",
+      "lieu": "2",
+      "score": "23:25, 20:25 043:050",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -2196,9 +2226,39 @@
       "heure": "16:00",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "U.S.M. ST-DENIS EN VAL",
-      "lieu": "GYMNASE JORIOT T3",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "0",
+      "score": "25:15, 25:14 050:029",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "15C003",
+      "categoryCode": "15C",
+      "categoryLabel": "Journée 1 - Poule C",
+      "niveau": "DEP",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "16:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "U.S.M. ST-DENIS EN VAL",
+      "lieu": "0",
+      "score": "25:15, 25:14 050:029",
+      "statut": "joue",
+      "weekStart": "2026-11-09"
+    },
+    {
+      "matchId": "15C003",
+      "categoryCode": "15C",
+      "categoryLabel": "Journée 1 - Poule C",
+      "niveau": "DEP",
+      "date": "2026-11-14",
+      "dateAffichee": "14/11",
+      "heure": "16:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "U.S.M. ST-DENIS EN VAL",
+      "lieu": "0",
+      "score": "25:15, 25:14 050:029",
+      "statut": "joue",
       "weekStart": "2026-11-09"
     },
     {
@@ -3247,7 +3307,7 @@
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "U.S.ORLEANS VOLLEY-BALL",
       "lieu": "GYMNASE GUY MOCQUET",
-      "score": "DIAWARA DIARRA / HURST THIERRY",
+      "score": "URBANY ELYSA / HURST THIERRY",
       "statut": "joue",
       "weekStart": "2027-01-11"
     },
@@ -4003,7 +4063,7 @@
     {
       "weekStart": "2026-11-09",
       "dateJour": 1793746800,
-      "matchCount": 32,
+      "matchCount": 36,
       "status": "ok"
     },
     {
