@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-17T20:41:03.929Z",
+  "lastUpdated": "2026-11-18T03:29:37.413Z",
   "categories": [
     {
       "code": "15C",
@@ -2616,9 +2616,39 @@
       "heure": "21:00",
       "domicile": "CJF Fleury",
       "exterieur": "ASPTT Orléans 1",
-      "lieu": "Guy Moquet",
-      "score": null,
-      "statut": "a_venir",
+      "lieu": "3",
+      "score": "22:25, 25:27, 25:22, 22:25 094:099",
+      "statut": "joue",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "CLD005",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-17",
+      "dateAffichee": "17/11",
+      "heure": "21:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "ASPTT Orléans 1",
+      "lieu": "3",
+      "score": "22:25, 25:27, 25:22, 22:25 094:099",
+      "statut": "joue",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "CLD005",
+      "categoryCode": "CLD",
+      "categoryLabel": "Competlib' débutant -Poule A",
+      "niveau": "DEP",
+      "date": "2026-11-17",
+      "dateAffichee": "17/11",
+      "heure": "21:00",
+      "domicile": "CJF Fleury",
+      "exterieur": "ASPTT Orléans 1",
+      "lieu": "3",
+      "score": "22:25, 25:27, 25:22, 22:25 094:099",
+      "statut": "joue",
       "weekStart": "2026-11-16"
     },
     {
@@ -3979,7 +4009,7 @@
     {
       "weekStart": "2026-11-16",
       "dateJour": 1794351600,
-      "matchCount": 15,
+      "matchCount": 17,
       "status": "ok"
     },
     {
