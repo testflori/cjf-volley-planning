@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-21T21:36:51.236Z",
+  "lastUpdated": "2026-11-22T01:59:40.570Z",
   "categories": [
     {
       "code": "15C",
@@ -2946,8 +2946,38 @@
       "heure": "20:30",
       "domicile": "CERCLE JULES FERRY FLEURY",
       "exterieur": "NEUVILLE SPORTS",
-      "lieu": "GYMNASE GUY MOCQUET",
-      "score": "AUGER LE ROY EWAN /",
+      "lieu": "3",
+      "score": "20:25, 27:25, 18:25, 21:25 086:100",
+      "statut": "joue",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "R2MA014",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-21",
+      "dateAffichee": "21/11",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "NEUVILLE SPORTS",
+      "lieu": "3",
+      "score": "20:25, 27:25, 18:25, 21:25 086:100",
+      "statut": "joue",
+      "weekStart": "2026-11-16"
+    },
+    {
+      "matchId": "R2MA014",
+      "categoryCode": "R2M",
+      "categoryLabel": "REGIONALE 2 MASCULIN SENIOR",
+      "niveau": "REG",
+      "date": "2026-11-21",
+      "dateAffichee": "21/11",
+      "heure": "20:30",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "NEUVILLE SPORTS",
+      "lieu": "3",
+      "score": "20:25, 27:25, 18:25, 21:25 086:100",
       "statut": "joue",
       "weekStart": "2026-11-16"
     },
@@ -4159,7 +4189,7 @@
     {
       "weekStart": "2026-11-16",
       "dateJour": 1794351600,
-      "matchCount": 23,
+      "matchCount": 25,
       "status": "ok"
     },
     {
