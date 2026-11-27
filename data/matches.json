@@ -4,7 +4,7 @@
     "nom": "CERCLE JULES FERRY FLEURY"
   },
   "saison": "2026/2027",
-  "lastUpdated": "2026-11-27T04:00:09.871Z",
+  "lastUpdated": "2026-11-27T13:44:25.121Z",
   "categories": [
     {
       "code": "15C",
@@ -93,6 +93,10 @@
     {
       "code": "JX2",
       "label": "COUPE DE FRANCE M21 MASCULIN POULE 2"
+    },
+    {
+      "code": "M3B",
+      "label": "M18M - Journée 3 - Poule Basse"
     },
     {
       "code": "MFO",
@@ -3643,6 +3647,21 @@
       "weekStart": "2026-11-30"
     },
     {
+      "matchId": "M3B002",
+      "categoryCode": "M3B",
+      "categoryLabel": "M18M - Journée 3 - Poule Basse",
+      "niveau": "DEP",
+      "date": "2026-12-05",
+      "dateAffichee": "05/12",
+      "heure": "14:00",
+      "domicile": "CERCLE JULES FERRY FLEURY",
+      "exterieur": "AS.CASTELNEUVIENNE V.B. 1",
+      "lieu": "GYMNASE JORIOT",
+      "score": null,
+      "statut": "a_venir",
+      "weekStart": "2026-11-30"
+    },
+    {
       "matchId": "J3D002",
       "categoryCode": "J3D",
       "categoryLabel": "M13 - Journée 3 - Poule D",
@@ -4772,7 +4791,7 @@
     {
       "weekStart": "2026-11-30",
       "dateJour": 1795561200,
-      "matchCount": 11,
+      "matchCount": 12,
       "status": "ok"
     },
     {
